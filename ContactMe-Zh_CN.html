@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 - HowCam</title>
+    <link rel="icon" href="./logo.png">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .menu {
+            background-color: #c3edbc;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            position: relative;
+        }
+
+        .logo {
+            width: 50px;
+            margin-left: 1%;
+            margin-top: 0.5%;
+            border-radius: 25px;
+        }
+
+        .text {
+            margin-left: 3%;
+            margin-top: 0%;
+            font-size: 20px;
+            color: rgb(47, 47, 47);
+        }
+
+        .menu-1 {
+            margin-left: 5%;
+            color: rgba(0, 0, 0, 0.6);
+            text-decoration: none;
+            position: relative;
+        }
+
+        .menu-1::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: rgb(30, 84, 0);
+            transition: width 0.4s ease-in-out;
+        }
+
+        .menu-1:hover::before {
+            width: 100%;
+        }
+
+        .green-ball {
+            content: '';
+            position: absolute;
+            width: 30vw;
+            aspect-ratio: 1 / 1;
+            background-color: #97f0c8;
+            border-radius: 50%;
+            filter: blur(20px);
+            animation: floating 5s ease-in-out infinite;
+            top: 20%;
+            left: -10%;
+            transform: translate(-10%, -10%);
+            opacity: 0.7;
+            z-index: 1;
+        }
+
+        .green-ball-2 {
+            content: '';
+            position: absolute;
+            width: 70vw;
+            aspect-ratio: 1 / 1;
+            background-color: #97f0c8;
+            border-radius: 50%;
+            filter: blur(20px);
+            animation: floating 5s ease-in-out infinite;
+            top: 0%;
+            left: 60%;
+            transform: translate(-10%, -10%);
+            opacity: 0.7;
+            z-index: 1;
+        }
+
+        .green-ball-3 {
+            content: '';
+            position: absolute;
+            width: 50vw;
+            aspect-ratio: 1 / 1;
+            background-color: #97f0c8;
+            border-radius: 50%;
+            filter: blur(20px);
+            animation: floating 5s ease-in-out infinite;
+            top: 60%;
+            left: 10%;
+            transform: translate(-10%, -10%);
+            opacity: 0.7;
+            z-index: 1;
+        }
+        .maintext {
+            color:rgb(7, 143, 0);
+            position: absolute;
+            top: 40%; 
+            left: 50%; 
+            transform: 
+            translate(-50%, -50%); 
+            text-align: center; 
+            z-index: 5;
+        }
+
+        @keyframes floating {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-100px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu" style="z-index: 2;">
+        <img src="./logo.png" alt="Logo" class="logo">
+        <div class="text">HowCam</div>
+        <a class="menu-1" href="./index.html">主页</a>
+        <a href="" class="menu-1">Blogs</a>
+        <a href="" class="menu-1">了解我</a>
+        <a href="./ContactMe-Zh_CN.html" class="menu-1">联系我</a>
+        <a href="" class="menu-1">给我留言</a>
+        <a href="" class="menu-1">English</a>
+    </div>
+    <div class="green-ball"></div>
+    <div class="green-ball-2"></div>
+    <div class="green-ball-3"></div>
+
+    <!-- Contact Me Content -->
+    <div class="maintext">
+        <h1>联系我</h1>
+        <p style="font-size: large;">你可以通过以下渠道联系我（请务必说明来意）：</p>
+        <ul style="font-size: large;text-align: left;">
+            <li>电子邮箱: hownotfound@gmail.com <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;howcam@qq.com</li>
+            <li>微&nbsp;信&nbsp;号：hownotfound</li>
+            <li>社交媒体: 抖音 @小皓同学📷 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bilibili @HowCam <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter @HowcamZhao</li>
+        </ul>
+    </div>
+</body>
+
+</html>
