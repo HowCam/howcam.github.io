@@ -4,3 +4,5 @@
      - [朝花夕拾](/md/Chinese/ZhaoHuaXiShi.md)
    - 历史
      - [九年级历史资料](/md/history/九年级历史资料.md)
+   - 政治
+     - [九年级政治资料](/md/politics/九年级政治资料.md)
