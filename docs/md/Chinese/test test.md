@@ -1,6 +1,5 @@
 test test
 
 ```pdf
-/八下物理书.pdf
+/md/Chinese/八下物理书.pdf
 ```
-
