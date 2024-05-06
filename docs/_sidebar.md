@@ -2,3 +2,5 @@
 - :memo: 目录
    - 语文
      - [朝花夕拾](/md/yuwen/ZhaoHuaXiShi.md)
+   - 历史
+     - [九年级历史资料](/md/lishi/九年级历史资料.md)
