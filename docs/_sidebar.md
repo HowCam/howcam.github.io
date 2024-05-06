@@ -1,6 +1,6 @@
 - [:octocat: 首页](/README)
 - :memo: 目录
    - 语文
-     - [朝花夕拾](/md/yuwen/ZhaoHuaXiShi.md)
+     - [朝花夕拾](/md/Chinese/ZhaoHuaXiShi.md)
    - 历史
-     - [九年级历史资料](/md/lishi/九年级历史资料.md)
+     - [九年级历史资料](/md/history/九年级历史资料.md)
