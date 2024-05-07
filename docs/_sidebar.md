@@ -1,5 +1,5 @@
+- ✍️[编辑此页](/md/edit.md)✍️
 - [:octocat: 首页](/README)
-- [编辑此页](/md/edit.md)
 - :memo: 目录
   - 语文
     - [语文笔记](/md/Chinese/语文笔记.md)
