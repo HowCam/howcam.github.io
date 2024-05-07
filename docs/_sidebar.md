@@ -1,4 +1,4 @@
-- ✍️[编辑此页](/md/edit.md)✍️
+- :pencil2:[编辑此页](/md/edit.md):pencil2:
 - [:octocat: 首页](/README)
 - :memo: 目录
   - 语文
