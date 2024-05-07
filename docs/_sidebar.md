@@ -1,4 +1,5 @@
 - [:octocat: 首页](/README)
+- [Markdown扫盲](/md/Markdown扫盲.md)
 - :memo: 目录
   - 语文
     - [语文笔记](/md/Chinese/语文笔记.md)
