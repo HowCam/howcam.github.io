@@ -32,10 +32,6 @@
       subMaxLevel: 5,
       sidebarDisplayLevel: 5,
 
-      editOnGithub: {
-      repo: 'https://github.com/howcam/howcam.github.io',
-      docPath: '/docs/md/'
-      },
       'flexible-alerts': {
         style: 'flat'
       },
@@ -66,6 +62,11 @@
       },
 
       plugins: [
+        EditOnGithubPlugin.create(
+         'https://github.com/HowCam/howcam.github.io/tree/main/docs/md',
+          null,
+         '在GitHub上编辑此页'
+        ),
         function (hook, vm) {
           hook.doneEach(function() {
             var label, domObj, main, divEle, gitalk;
