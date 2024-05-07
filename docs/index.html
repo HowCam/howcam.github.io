@@ -70,14 +70,7 @@
             label = md5(decodeURI(vm.route.path.split("/").pop()));
             domObj = Docsify.dom;
             main = domObj.getNode("#main");
-            var footer = [
-            '<hr/>',
-            '<footer>',
-            '<span><a href="https://github.com/howcam">HowCam</a> &copy;2024.</span>',
-            '<span>Proudly published with <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
-            '</footer>'
-            ].join('')
-
+            
             Array.apply(
               null,
               document.querySelectorAll("div.gitalk-container")
