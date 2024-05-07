@@ -32,6 +32,7 @@
       subMaxLevel: 5,
       sidebarDisplayLevel: 5,
 
+
       'flexible-alerts': {
         style: 'flat'
       },
@@ -62,12 +63,20 @@
       },
 
       plugins: [
+        EditOnGithubPlugin.create('https://github.com/HowCam/howcam.github.io/tree/main/docs/md'),
         function (hook, vm) {
           hook.doneEach(function() {
             var label, domObj, main, divEle, gitalk;
             label = md5(decodeURI(vm.route.path.split("/").pop()));
             domObj = Docsify.dom;
             main = domObj.getNode("#main");
+            var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="https://github.com/howcam">HowCam</a> &copy;2024.</span>',
+            '<span>Proudly published with <a href="https://github.com/QingWei-Li/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+            ].join('')
 
             Array.apply(
               null,
@@ -92,6 +101,7 @@
 <script src="/assets/js/search.js"></script>
 <script src="/assets/js/docsify-pagination.min.js"></script>
 <script src="/assets/js/docsify-plugin-flexible-alerts.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 <script src="/assets/js/docsify-sidebar-collapse.min.js"></script>
 <script src="/assets/js/countable.min.js"></script>
 <script src="/assets/js/zoom-image.js"></script>
