@@ -1,5 +1,5 @@
 - [:octocat: 首页](/README)
-- :pencil2: [编辑此页](/md/edit.md)
+- [编辑此页](/md/edit.md)
 - :memo: 目录
 
   - 语文
