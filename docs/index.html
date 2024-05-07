@@ -63,7 +63,10 @@
       },
 
       plugins: [
-        
+
+        EditOnGithubPlugin.create(
+          'https://github.com/HowCam/howcam.github.io/tree/main/docs/md'
+        ),
         function (hook, vm) {
           hook.doneEach(function() {
             var label, domObj, main, divEle, gitalk;
@@ -94,7 +97,7 @@
 <script src="/assets/js/search.js"></script>
 <script src="/assets/js/docsify-pagination.min.js"></script>
 <script src="/assets/js/docsify-plugin-flexible-alerts.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 <script src="/assets/js/docsify-sidebar-collapse.min.js"></script>
 <script src="/assets/js/countable.min.js"></script>
 <script src="/assets/js/zoom-image.js"></script>
