@@ -2,6 +2,14 @@
 
 想要参与编辑本网站？在正式参与编辑之前，你需要了解这些东西。
 
+## 本站运行原理
+
+本站基于[docsify](https://docsify.js.org/#/zh-cn/)工具生成，利用[GitHub Pages](https://pages.github.com/)对页面进行发布。
+
+docsify工具将对仓库中[/docs](https://www.github.com/howcam/howcam.github.io/docs/)下的Markdown文件进行实时渲染，根据设定的参数进行展示。
+
+GitHub在本项目中承担了项目文件托管和页面发布的责任。
+
 ## 贡献范围
 
 你可以对本站**<u>所有内容</u>**作出贡献，包括但不限于：**编写和编辑文档**、**代码贡献**、**审查和测试**、**翻译工作**、**设计贡献**、**网站维护**、**文档格式化和改进**、**工具开发**。
