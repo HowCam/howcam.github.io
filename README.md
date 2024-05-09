@@ -4,6 +4,6 @@
 
 本项目基于docsify
 
-## 联系作者
+## 联系管理员
 
-telegram  howcamz
+telegram  @howcamz
