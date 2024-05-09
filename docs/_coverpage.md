@@ -2,7 +2,7 @@
 
 # DC Wiki
 
-## Developed by [HowCam](https://www.github.com/howcam)
+## Developed by HowCam
 
 - 本仓库是基于 docsify 构建的开放知识库
 - (欢迎投稿封面绘画，详情请在阅读页点击`参与编辑本站`)
