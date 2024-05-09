@@ -1,4 +1,4 @@
-![logo](_media/logo.png)
+<img src="_media/logo.png" alt="logo" style="zoom:25%;" />
 
 # HowCam
 
