@@ -1,4 +1,4 @@
-<img src="_media/logo.png" alt="logo" style="zoom:25%;" />
+<img src="https://pic.imgdb.cn/item/663d5be50ea9cb1403b26600.png" style="zoom:25%;" />
 
 # DC Wiki
 
