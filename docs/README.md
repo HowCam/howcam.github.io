@@ -1,4 +1,4 @@
- 👋  **欢迎来到「知识就是力量」知识库**
+ 👋  **欢迎来到DC Wiki**
 
 此站是由[HowCam](https://www.github.com/howcam)维护的开源wiki知识库。
 
