@@ -7,7 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/assets/css/vue.css">
-  <link rel="stylesheet" href="/assets/css/sidebar.min.css" />
+  <link rel="stylesheet" href="/assets/css/sidebar.min.css"/>
+  <link rel="stylesheet" href="assets/css/docsify-top-banner-plugin.css"/>
 </head>
 <body>
 <div id="app">知识正在马不停蹄地赶来……</div>
@@ -53,50 +54,15 @@
         inlineMath   : [['$', '$'], ['\\(', '\\)']], // default
         displayMath  : [['$$', '$$']],               // default
       },
-
+      topBanner: {
+        content: '🎉网站建站初期，内容、功能尚不完善。欢迎大家积极参与贡献！'
+      },
       plugins: [
         
       ]
     }                                 
   </script>
-    <!-- 添加网站运行时间统计 -->
-<script language=javascript>
-  function siteTime() {
-     window.setTimeout("siteTime()", 1000);
-     var seconds = 1000;
-     var minutes = seconds * 60;
-     var hours = minutes * 60;
-     var days = hours * 24;
-     var years = days * 365;
-     var today = new Date();
-     var todayYear = today.getFullYear();
-     var todayMonth = today.getMonth() + 1;
-     var todayDate = today.getDate();
-     var todayHour = today.getHours();
-     var todayMinute = today.getMinutes();
-     var todaySecond = today.getSeconds();
-     /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
-     year - 作为date对象的年份，为4位年份值
-     month - 0-11之间的整数，做为date对象的月份
-     day - 1-31之间的整数，做为date对象的天数
-     hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
-     minutes - 0-59之间的整数，做为date对象的分钟数
-     seconds - 0-59之间的整数，做为date对象的秒数
-     microseconds - 0-999之间的整数，做为date对象的毫秒数 */
 
-     /* 建站时间 */
-     var t1 = Date.UTC(2024, 0o5, 0o5, 0o0, 0o0, 0o0); 
-     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-     var diff = t2 - t1;
-     var diffYears = Math.floor(diff / years);
-     var diffDays = Math.floor((diff / days) - diffYears * 365);
-     var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
-     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
-     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-     document.getElementById("sitetime").innerHTML = " 本站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
-  }
-  siteTime();
-</script>
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
 <script src="/assets/js/search.js"></script>
@@ -111,7 +77,7 @@
 <script src="//jsd.cdn.zzko.cn/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--  docsify-latex plugin -->
 <script src="/assets/js/docsify-latex.min.js"></script>
-<!-- 访问量统计 -->
-<script async src="/assets/js/busuanzi.pure.mini.js"></script>
+<!-- banner -->
+<script src="/assets/js/docsify-top-banner-plugin.js"></script>
 </body>
 </html>
