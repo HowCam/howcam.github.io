@@ -55,7 +55,14 @@
         displayMath  : [['$$', '$$']],               // default
       },
       topBanner: {
-        content: '🎉网站建站初期，内容、功能尚不完善。欢迎大家积极参与贡献！'
+        content: '🎉网站建站初期，内容、功能尚不完善。欢迎大家积极参与贡献！<span><a href="/md/edit.md" target="_blank">Try it now</a></span>',
+        defaultTag: 'span', // 横幅内容的默认HTML标签
+        position: 'fixed', // CSS定位属性
+        backgroundColor: '#deebff', // 横幅的背景颜色
+        zIndex: 101, // 横幅的z-index
+        textColor: '#091E42', // 横幅的文本颜色
+        linkColor: '#091E42', // 链接的文本颜色，这里与textColor相同
+        textAlign: 'center' // 横幅内容的对齐方式
       },
       plugins: [
         
