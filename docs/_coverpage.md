@@ -1,8 +1,8 @@
 <img src="https://pic.imgdb.cn/item/663d5be50ea9cb1403b26600.png" style="zoom:25%;" />
 
-# DC Wiki
+# 布瑞利恩
 
-## Developed by HowCam
+## BRILLIANT
 
 - 本仓库是基于 docsify 构建的开放知识库
 - (欢迎投稿封面绘画，详情请在阅读页点击`参与编辑本站`)

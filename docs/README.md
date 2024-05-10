@@ -1,4 +1,4 @@
- 👋  **欢迎来到DC Wiki**
+ 👋  **欢迎来到布瑞利恩**
 
 此站是由[HowCam](https://www.github.com/howcam)维护的开源wiki知识库。
 
