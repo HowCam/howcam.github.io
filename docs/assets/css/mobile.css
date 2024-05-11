@@ -29,7 +29,7 @@
 
   .drag-window {
     position: fixed; /* 绝对定位，相对于浏览器窗口固定位置 */
-    height: 10%; /* 窗口高度设置为其父容器高度的20% */
+    height: auto; /* 窗口高度设置为其父容器高度的20% */
     right: 0.3rem; /* 窗口距离父容器右侧的距离为0.5rem */
     bottom: 3.2rem; /* 窗口距离父容器底部的距离为2.5rem */
     width: auto; /* 窗口宽度设置为其父容器宽度的x% */
