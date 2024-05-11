@@ -39,8 +39,8 @@
     padding: 0 20px;
     position: fixed; /* 确保横幅固定在顶部 */
     bottom: 0; /* 确保横幅在底部，这里加上单位 */
-    left: 3rem; /* 确保横幅从左边开始 */
-    right: 3rem; /* 确保横幅延伸到右边 */
+    left: 0; /* 确保横幅从左边开始 */
+    right: 0; /* 确保横幅延伸到右边 */
     background: #fff; /* 可以设置一个背景色 */
     z-index: 100; /* 确保横幅在最上层 */
   }
