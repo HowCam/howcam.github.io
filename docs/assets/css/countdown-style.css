@@ -1,5 +1,5 @@
   .drag-window {
-    position: fixed;
+    position: absolute;
     width: 20%;
     background-color: #cacaca;
     padding: 10px;
