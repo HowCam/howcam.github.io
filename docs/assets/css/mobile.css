@@ -57,7 +57,7 @@
     font-size: 0.8rem;
     padding: 2px; /* 内容区域内部的间距为10px */
     text-align: center; /* 文本居中对齐 */
-    line-height: 0.2;
+    line-height: 0.5;
   }
   
   .dragging {
