@@ -222,7 +222,7 @@ main.hidden {
   left: 0;
   transition: transform 250ms ease-out;
   width: 300px;
-  z-index: 101;
+  z-index: 20;
 }
 .sidebar > h1 {
   margin: 0 auto 1rem;
@@ -289,7 +289,7 @@ main.hidden {
   text-align: center;
   transition: opacity 0.3s;
   width: 284px;
-  z-index: 30;
+  z-index: 105;
   cursor: pointer;
 }
 .sidebar-toggle:hover .sidebar-toggle-button {
