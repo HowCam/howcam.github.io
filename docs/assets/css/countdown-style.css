@@ -1,18 +1,38 @@
-#info-bar {
-    position: fixed;
-    bottom: 2.2rem;
-    right: 0;
-    width: 20%;
-    background-color: #cacacaae;
-    padding: 10px;
+body {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .drag-window {
+    position: absolute;
+    width: 20%;
+    background-color: #cacaca;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: -3px -3px 6px rgba(0, 0, 0, 0.1);
-}
-
-#info-bar p {
-    margin: 5px 0;
-}
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    cursor: grab;
+    user-select: none;
+  }
+  
+  .drag-window-header {
+    cursor: move;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .drag-window-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dragging {
+    cursor: grabbing;
+  }

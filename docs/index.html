@@ -43,10 +43,12 @@
 <div id="app">星舟正在航行中……</div>
 
 <!-- 倒计时 -->
-<div id="info-bar">
-  <p>距离2024年中考还有</p>
-  <p id="countdown"></p>
-</div>
+<div id="draggable-window" class="drag-window">
+  <div class="drag-window-header">中考倒计时</div>
+  <div class="drag-window-content">
+    <p>距离2024年中考还有</p>
+    <p id="countdown">0天 00小时 00分 00秒</p>
+  </div>>
 
 <script>
     window.$docsify = {
