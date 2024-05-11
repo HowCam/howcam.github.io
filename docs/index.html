@@ -22,7 +22,7 @@
 <body>
 <div id="app">星舟正在航行中……</div>
 <!-- 新添加的倒计时块 -->
-<div id="countdown" style="position: fixed; bottom: 0; left: 0; width: calc(100% - 300px); background-color: #f0f0f0; padding: 10px;"></div>
+<div id="countdown" style="position: fixed; bottom: 2rem; left: 0; width: calc(100% - 300px); background-color: #f0f0f0; padding: 10px;"></div>
 
 <script>
     window.$docsify = {
@@ -95,7 +95,7 @@ var x = setInterval(function() {
   // 在页面上显示倒计时
   document.getElementById("countdown").innerHTML = days + "天 " + hours + "小时 "
   + minutes + "分 " + seconds + "秒 ";
-  
+
 }, 1000);
 </script>
 
