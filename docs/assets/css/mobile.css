@@ -5,7 +5,7 @@
     padding: 0 20px;
     position: fixed;
     bottom: 0; /* 确保横幅在底部，这里加上单位 */
-    left: 2rem; /* 确保横幅从左边开始 */
+    left: 0; /* 确保横幅从左边开始 */
     right: 0; /* 确保横幅延伸到右边 */
     background: #fff; /* 可以设置一个背景色 */
     z-index: 100; /* 确保横幅在最上层 */
@@ -57,7 +57,7 @@
     font-size: 0.8rem;
     padding: 2px; /* 内容区域内部的间距为10px */
     text-align: center; /* 文本居中对齐 */
-    line-height: 0.5;
+    line-height: 0.3;
   }
   
   .dragging {
