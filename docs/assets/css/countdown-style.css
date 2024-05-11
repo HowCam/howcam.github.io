@@ -1,6 +1,6 @@
   .drag-window {
     position: fixed;
-    height: auto;
+    height: 30px;
     right: 0.5rem;
     bottom: 2.5rem;
     width: 20%;
