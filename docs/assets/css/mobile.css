@@ -27,33 +27,33 @@
   }
 
   .drag-window {
-    position: fixed;
-    height: 20%;
-    right: 0.5rem;
-    bottom: 2.5rem;
-    width: 20%;
-    background-color: #cacacaca;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    cursor: grab;
-    user-select: none;
+    position: fixed; /* 绝对定位，相对于浏览器窗口固定位置 */
+    height: 20%; /* 窗口高度设置为其父容器高度的20% */
+    right: 0.5rem; /* 窗口距离父容器右侧的距离为0.5rem */
+    bottom: 2.5rem; /* 窗口距离父容器底部的距离为2.5rem */
+    width: 20%; /* 窗口宽度设置为其父容器宽度的20% */
+    background-color: #cacacaca; /* 设置窗口背景颜色为带有透明度的灰色 */
+    padding: 10px; /* 窗口内部的间距为10px */
+    border-radius: 10px; /* 窗口边框圆角为10px */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加窗口阴影效果 */
+    z-index: 1000; /* 设置窗口的堆叠顺序，数值越大越靠上 */
+    cursor: grab; /* 鼠标悬停时显示可抓取的光标 */
+    user-select: none; /* 防止用户选中文本 */
   }
-  
+
   .drag-window-header {
-    cursor: move;
-    padding: 5px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    cursor: move; /* 鼠标悬停时显示可移动的光标 */
+    padding: 5px; /* 标题内部的间距为5px */
+    background-color: #333; /* 设置标题背景颜色为深灰色 */
+    color: white; /* 设置标题文字颜色为白色 */
+    text-align: center; /* 文本居中对齐 */
+    border-top-left-radius: 10px; /* 标题左上角圆角为10px */
+    border-top-right-radius: 10px; /* 标题右上角圆角为10px */
   }
-  
+
   .drag-window-content {
-    padding: 10px;
-    text-align: center;
+    padding: 10px; /* 内容区域内部的间距为10px */
+    text-align: center; /* 文本居中对齐 */
   }
   
   .dragging {
