@@ -378,7 +378,7 @@ main.hidden {
     text-align: center;
     transition: opacity 0.3s;
     width: 284px;
-    z-index: 105;
+    z-index: 999;
     }
     
     /* 侧边栏切换按钮悬停样式 */
