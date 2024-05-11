@@ -285,7 +285,7 @@ main.hidden {
   left: 0;
   transition: transform 0.25s ease-out;
   width: 300px;
-  z-index: 20;
+  z-index: 200;
 }
 
 /* 侧边栏标题样式 */
