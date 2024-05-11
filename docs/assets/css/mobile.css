@@ -33,7 +33,7 @@
     bottom: 3.2rem; /* 窗口距离父容器底部的距离为2.5rem */
     width: 30%; /* 窗口宽度设置为其父容器宽度的x% */
     background-color: #cacacaca; /* 设置窗口背景颜色为带有透明度的灰色 */
-    padding: 5px; /* 窗口内部的间距为10px */
+    padding: 2px; /* 窗口内部的间距为10px */
     border-radius: 5px; /* 窗口边框圆角为10px */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加窗口阴影效果 */
     z-index: 1000; /* 设置窗口的堆叠顺序，数值越大越靠上 */
@@ -44,7 +44,7 @@
   .drag-window-header {
     cursor: move; /* 鼠标悬停时显示可移动的光标 */
     font-size: 0.8rem;
-    padding: 5px; /* 标题内部的间距为5px */
+    padding: 2px; /* 标题内部的间距为5px */
     background-color: #333; /* 设置标题背景颜色为深灰色 */
     color: white; /* 设置标题文字颜色为白色 */
     text-align: center; /* 文本居中对齐 */
@@ -54,7 +54,7 @@
 
   .drag-window-content {
     font-size: 0.8rem;
-    padding: 5px; /* 内容区域内部的间距为10px */
+    padding: 2px; /* 内容区域内部的间距为10px */
     text-align: center; /* 文本居中对齐 */
   }
   
