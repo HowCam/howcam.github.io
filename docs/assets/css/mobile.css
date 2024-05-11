@@ -43,18 +43,18 @@
 
   .drag-window-header {
     cursor: move; /* 鼠标悬停时显示可移动的光标 */
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 5px; /* 标题内部的间距为5px */
     background-color: #333; /* 设置标题背景颜色为深灰色 */
     color: white; /* 设置标题文字颜色为白色 */
     text-align: center; /* 文本居中对齐 */
-    border-top-left-radius: 10px; /* 标题左上角圆角为10px */
-    border-top-right-radius: 10px; /* 标题右上角圆角为10px */
+    border-top-left-radius: 5px; /* 标题左上角圆角为10px */
+    border-top-right-radius: 5px; /* 标题右上角圆角为10px */
   }
 
   .drag-window-content {
-    font-size: 1rem;
-    padding: 10px; /* 内容区域内部的间距为10px */
+    font-size: 0.8rem;
+    padding: 5px; /* 内容区域内部的间距为10px */
     text-align: center; /* 文本居中对齐 */
   }
   
