@@ -1,8 +1,8 @@
 #info-bar {
     position: fixed;
-    bottom: 2rem;
+    bottom: 2.2rem;
     right: 0;
-    width: 30%;
+    width: 20%;
     background-color: #f0f0f0;
     padding: 10px;
     display: flex;
