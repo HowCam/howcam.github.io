@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #info-bar p {
