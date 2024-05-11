@@ -96,6 +96,7 @@ var x = setInterval(function() {
   // 在页面上显示倒计时
   document.getElementById("countdown").innerHTML = days + "天 " + hours + "小时 "
   + minutes + "分 " + seconds + "秒 ";
+  document.getElementById("countdown").style.zIndex = "1"; // 确保倒计时在自定义文字的上方显示
 
 }, 1000);
 </script>
