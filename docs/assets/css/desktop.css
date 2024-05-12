@@ -26,6 +26,7 @@
   .drag-window-content {
     padding: 10px;
     text-align: center;
+    font-size: 5%;
   }
   
   .dragging {
