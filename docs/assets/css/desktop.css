@@ -51,7 +51,6 @@
     display: flex;
     align-items: center; /* 使用flexbox垂直居中内容 */
     justify-content: center; /* 水平居中内容 */
-    z-index: 100;
   }
   
   #TOPBANNER a {
