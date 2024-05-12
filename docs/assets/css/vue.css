@@ -439,6 +439,7 @@ body.close .content {
   .sidebar {
     left: -300px;
     transition: transform 250ms ease-out;
+    z-index: 105;
   }
   .content {
     left: 0;
@@ -450,6 +451,7 @@ body.close .content {
   .app-nav,
   .github-corner {
     transition: transform 250ms ease-out;
+    z-index: 105;
   }
   .sidebar-toggle {
     background-color: transparent;
