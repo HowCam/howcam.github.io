@@ -1,9 +1,9 @@
   .drag-window {
     position: fixed;
-    height: 20%;
+    height: max-content;
     right: 0.5rem;
     bottom: 2.5rem;
-    width: 20%;
+    width: max-content;
     background-color: #cacacaca;
     padding: 10px;
     border-radius: 10px;
@@ -11,6 +11,7 @@
     z-index: 1000;
     cursor: grab;
     user-select: none;
+    font-size: 1vw;
   }
   
   .drag-window-header {
@@ -26,7 +27,6 @@
   .drag-window-content {
     padding: 10px;
     text-align: center;
-    font-size: 20vw;
   }
   
   .dragging {
