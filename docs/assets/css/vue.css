@@ -457,6 +457,7 @@ body.close .content {
     background-color: transparent;
     width: auto;
     padding: 30px 30px 10px 10px;
+    z-index: 105;
   }
   body.close .sidebar {
     transform: translateX(300px);
