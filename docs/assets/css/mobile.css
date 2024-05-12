@@ -1,6 +1,6 @@
   #TOPBANNER {
     display: block;
-    height: 3rem;
+    height: 1rem;
     width: 100%;
     padding: 0 20px;
     position: fixed;
@@ -17,13 +17,14 @@
     display: flex;
     align-items: center; /* 使用flexbox垂直居中内容 */
     justify-content: center; /* 水平居中内容 */
+    font-size: 0.5rem;
   }
   
   #TOPBANNER a {
     margin-left: 5px; /* 只设置左边的外边距 */
     margin-right: 5px;
     width: auto;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
     letter-spacing: 1px;
   }
 
