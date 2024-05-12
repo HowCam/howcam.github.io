@@ -36,7 +36,7 @@
   
   #TOPBANNER {
     display: block;
-    height: 2rem;
+    height: max-content;
     width: 100%;
     padding: 0 20px;
     position: fixed; /* 确保横幅固定在顶部 */
@@ -53,6 +53,7 @@
     display: flex;
     align-items: center; /* 使用flexbox垂直居中内容 */
     justify-content: center; /* 水平居中内容 */
+    font-size: 1vw;
   }
   
   #TOPBANNER a {
