@@ -294,7 +294,6 @@ main.hidden {
 }
 .sidebar-toggle:hover .sidebar-toggle-button {
   opacity: 0.4;
-  z-index: 105;
 }
 .sidebar-toggle span {
   background-color: #42b983;
