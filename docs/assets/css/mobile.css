@@ -4,7 +4,7 @@
     width: 100%;
     padding: 0 20px;
     position: fixed;
-    bottom: 0; /* 确保横幅在底部，这里加上单位 */
+    top: 0; /* 确保横幅在顶部，这里加上单位 */
     left: 0; /* 确保横幅从左边开始 */
     right: 0; /* 确保横幅延伸到右边 */
     background: #fff; /* 可以设置一个背景色 */
