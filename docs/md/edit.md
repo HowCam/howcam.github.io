@@ -86,7 +86,7 @@ GitHub在本项目中承担了项目文件托管和页面发布的责任。
 
 ### 本地编辑
 
-如果你不会使用GitHub，你可以使用本地编辑的形式。你可以在本地使用文本编辑器（例如：NotePad++，typora）撰写文档。编辑完成后，你可以通过邮件的方式将markdown文档发送给管理员（点击[这里](mailto:hownotfound@gmail.com)向管理员发送邮件，如果浏览器或系统不支持mailto命令，可以手动复制地址`hownotfound@gmail.com`）。请注意，请在发送邮件的同时，附带上你的身份信息（可以是实名、也可以是虚拟的身份），以便我们署名。
+如果你不会使用GitHub，你可以使用本地编辑的形式。你可以在本地使用文本编辑器（例如：NotePad++，typora）撰写文档。编辑完成后，你可以通过邮件的方式将markdown文档发送给管理员（点击[这里](mailto:hownotfound@gmail.com?subject=星舟Starship%20|%20 )向管理员发送邮件，如果浏览器或系统不支持mailto命令，可以手动复制地址`hownotfound@gmail.com`）。请注意，请在发送邮件的同时，附带上你的身份信息（可以是实名、也可以是虚拟的身份），以便我们署名。
 
 ### 加入我们的讨论群
 
