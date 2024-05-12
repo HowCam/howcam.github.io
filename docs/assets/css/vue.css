@@ -289,11 +289,12 @@ main.hidden {
   text-align: center;
   transition: opacity 0.3s;
   width: 284px;
-  z-index: 105;
+  z-index: 50;
   cursor: pointer;
 }
 .sidebar-toggle:hover .sidebar-toggle-button {
   opacity: 0.4;
+  z-index: 105;
 }
 .sidebar-toggle span {
   background-color: #42b983;
