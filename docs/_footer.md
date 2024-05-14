@@ -26,6 +26,6 @@
         this.href = 'https://github.com/HowCam/howcam.github.io/edit/main/docs/' + mdLink;
     });
 });
-</scrtpt>
+</script>
 
 本页面的全部内容在 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode.zh-hans) 协议之条款下提供，附加条款亦可能应用
