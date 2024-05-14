@@ -16,8 +16,8 @@
             // 获取当前页面的URL
             var currentPageURL = window.location.href;
 
-            // 使用正则表达式提取 '#' 后面的内容
-            var fragmentMatch = currentPageURL.match(/#(.*)$/);
+            // 使用正则表达式提取 '#/' 后面的内容
+            var fragmentMatch = currentPageURL.match(/#\/(.*)$/);
             console.log('Fragment match:', fragmentMatch);
 
             // 如果找到匹配项，则提取片段标识符
