@@ -3,10 +3,10 @@
   function getQueryVariable(dft)
   {
     var reg = new RegExp('^#(.*)', 'i');
-    var r = window.location.hach.match(reg);
+    var r = window.location.hash.match(reg);
     if (r[1] != '/')
     {
-      return r[i] + '.md';
+      return r[1] + '.md';
     }
     return dft;
   }
