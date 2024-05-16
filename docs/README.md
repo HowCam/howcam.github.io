@@ -1,6 +1,6 @@
  👋  **欢迎来到星舟Starship**
 
-此站是由[Starship Dev Team](/md/join-us.md)维护的开源wiki知识库。
+此站是由[Starship Dev Team](https://github.com/orgs/Starship-Dev-Team/people)维护的开源wiki知识库。
 
 > [!tip] 声明：本知识库中所有内容以CC BY-NC 4.0协议开源
 >
