@@ -6,7 +6,7 @@
 
 阅读完成后，请点击下方按钮跳转到GitHub找到对应文件开始编辑。
 
-<a style="padding:.75em 1.25em;display:inline-block;line-height:1;text-decoration:none;white-space:nowrap;cursor:pointer;border:1px solid #42b983;border-radius:5px;background:#42b983;color:#fff;outline:none;font-size:.75em" href="https://github.com/HowCam/howcam.github.io/tree/main/docs/md"><b>开始编辑</b></a>
+<button style="padding:.75em 1.25em;display:inline-block;line-height:1;text-decoration:none;white-space:nowrap;cursor:pointer;border:1px solid #42b983;border-radius:5px;background:#42b983;color:#fff;outline:none;font-size:.75em" onclick="openReferenceURL()"><b>开始编辑</b></button>
 
 ---
 
