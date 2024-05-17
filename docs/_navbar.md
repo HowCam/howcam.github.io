@@ -4,7 +4,7 @@
 * 语文
   * [语文笔记](/md/Chinese/语文笔记.md)
   * [西游记](/md/Chinese/西游记.md)
-  * [朝花夕拾](/md/Chinese/ZhaoHuaXiShi.md)
+  * [朝花夕拾](/md/Chinese/朝花夕拾.md)
   * [水浒传](/md/Chinese/水浒传.md)
   * [儒林外史](/md/Chinese/儒林外史.md)
   
