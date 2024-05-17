@@ -22,6 +22,6 @@ function openReferenceURL() {
         window.open('https://github.com/HowCam/howcam.github.io/edit/main/' + fileName[1], target='_blank');
     } else {
         /* WTF? */
-        console.error('[ERR!] getReferenceURL() does not find the name of the file.');
+        console.error('[ERR!] openReferenceURL() does not find the name of the file.');
     }
 }
