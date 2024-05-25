@@ -64,3 +64,16 @@
   .dragging {
     cursor: grabbing;
   }
+
+  .app-nav p {
+    margin: 0;
+    display: none;
+  }
+
+  #TOPBANNER {
+    display: none;
+  }
+
+  .github-corner svg{
+    display: none;
+  }
