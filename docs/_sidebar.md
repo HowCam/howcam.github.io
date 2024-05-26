@@ -15,6 +15,7 @@
       * [朝花夕拾](/md/Chinese/朝花夕拾.md)
       * [水浒传](/md/Chinese/水浒传.md)
       * [儒林外史](/md/Chinese/儒林外史.md)
+      * [骆驼祥子](/md/Chinese/骆驼祥子.md)
   * 历史
     * [九年级历史资料](/md/history/九年级历史资料.md)
   * 政治

@@ -6,6 +6,7 @@
   * [朝花夕拾](/md/Chinese/朝花夕拾.md)
   * [水浒传](/md/Chinese/水浒传.md)
   * [儒林外史](/md/Chinese/儒林外史.md)
+  * [骆驼祥子](/md/Chinese/骆驼祥子.md)
   * [成长篇作文范文](/md/Chinese/作文范文/成长篇.md)
   * [亲情篇作文范文](/md/Chinese/作文范文/亲情篇.md)
   * [传统文化类作文范文](/md/Chinese/作文范文/传统文化类.md)
