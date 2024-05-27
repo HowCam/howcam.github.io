@@ -10,4 +10,6 @@
 
 ---
 
+还没有使用过GitHub？请参看[如何使用GitHub](/md/how-to-use-GitHub.md)
+
 无法使用GitHub？请参看[其它贡献方式](https://howcam.github.io/#/md/contribute?id=%e8%b4%a1%e7%8c%ae%e6%96%b9%e5%bc%8f)
