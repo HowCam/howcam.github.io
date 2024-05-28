@@ -7,9 +7,7 @@
   * [水浒传](/md/Chinese/水浒传.md)
   * [儒林外史](/md/Chinese/儒林外史.md)
   * [骆驼祥子](/md/Chinese/骆驼祥子.md)
-  * [成长篇作文范文](/md/Chinese/作文范文/成长篇.md)
-  * [亲情篇作文范文](/md/Chinese/作文范文/亲情篇.md)
-  * [传统文化类作文范文](/md/Chinese/作文范文/传统文化类.md)
+  * [作文专项](/md/Chinese/作文范文/index.md)
 * 历史
   * [九年级历史资料](/md/history/九年级历史资料.md)
 * 政治

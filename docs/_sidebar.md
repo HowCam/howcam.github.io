@@ -6,10 +6,7 @@
   * 语文
 
     * [语文笔记](/md/Chinese/语文笔记.md)
-    * 作文范文
-      * [成长篇](/md/Chinese/作文范文/成长篇.md)
-      * [亲情篇](/md/Chinese/作文范文/亲情篇.md)
-      * [传统文化类](/md/Chinese/作文范文/传统文化类.md)
+    * [作文专项](/md/Chinese/作文范文/index.md)
     * 名著阅读
       * [西游记](/md/Chinese/西游记.md)
       * [朝花夕拾](/md/Chinese/朝花夕拾.md)
