@@ -6,6 +6,15 @@ edit_uri: edit/main/docs/
 repo_url: https://github.com/howcam/howcam.github.io/
 repo_name: HowCam/howcam.github.io
 
+copyright: Copyright &copy; 2024 <a href='https://github.com/orgs/Starship-Dev-Team/people'> Starship Dev Team </a>
+
+extra:
+  social:
+  - icon: octicons/mail-24
+    link: mailto:hownotfound@gmail.com
+  - icon: fontawesome/brands/github
+    link: https://github.com/orgs/Starship-Dev-Team/people
+
 nav:
   - 首页: /.
   - 语文:
@@ -37,6 +46,7 @@ theme:
     - content.action.view
     - navigation.tabs
     - navigation.instant
+    - navigation.footer
     - search.suggest # 搜索建议
     - search.highlight # 搜索高亮
     - toc.follow # 目录跟踪-页面右侧的小目录
@@ -57,6 +67,11 @@ theme:
         icon: material/toggle-switch
         name: 切换到日间模式
 
+  plugins:
+  - git-committers:
+      repository: HowCam/howcam.github.io
+      branch: main
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
@@ -66,3 +81,4 @@ markdown_extensions:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+      
