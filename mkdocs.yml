@@ -1,0 +1,68 @@
+site_name: 星舟Starship
+site_url: https://howcam.github.io/
+site_author: Starship Dev Team
+edit_uri: edit/main/docs/
+
+repo_url: https://github.com/howcam/howcam.github.io/
+repo_name: HowCam/howcam.github.io
+
+nav:
+  - 首页: /.
+  - 语文:
+    - 语文笔记: Chinese/语文笔记.md
+    - 西游记: Chinese/西游记.md
+    - 朝花夕拾: Chinese/朝花夕拾.md
+    - 水浒传: Chinese/水浒传.md
+    - 儒林外史: Chinese/儒林外史.md
+    - 骆驼祥子: Chinese/骆驼祥子.md
+    - 作文专项: Chinese/作文范文/目录.md
+  - 历史:
+    - 九年级历史资料: history/九年级历史资料.md
+  - 政治:
+    - 九年级政治资料: politics/九年级政治资料.md
+  - 化学:
+    - 化学笔记: chemistry/化学笔记.md
+  - 物理:
+    - 第一章 机械运动: physics/第一章-机械运动.md
+    - 第二章 声现象: physics/第二章-声现象.md
+
+theme:
+  name: material
+  language: zh
+  favicon: images/favicon.png
+  icon:
+    logo: material/ufo-outline
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.tabs
+    - navigation.instant
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索高亮
+    - toc.follow # 目录跟踪-页面右侧的小目录
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 切换到暗夜模式
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: 切换到日间模式
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
