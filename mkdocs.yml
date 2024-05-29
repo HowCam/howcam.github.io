@@ -16,7 +16,13 @@ extra:
     link: https://github.com/orgs/Starship-Dev-Team/people
 
 nav:
-  - 首页: /.
+  - 首页: 
+    - 首页: index.md
+    - 贡献指南: intro/contribute.md
+    - 格式手册: intro/format.md
+    - 数学符号表: intro/symbol.md
+    - 如何使用GitHub: intro/how-to-use-GitHub.md
+    - Markdown扫盲: intro/Markdown.md
   - 语文:
     - 语文笔记: Chinese/语文笔记.md
     - 西游记: Chinese/西游记.md
@@ -45,8 +51,11 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.tabs
+    - navigation.top
     - navigation.instant
+    - navigation.instant.prefetch
     - navigation.footer
+    - navigation.tracking
     - search.suggest # 搜索建议
     - search.highlight # 搜索高亮
     - toc.follow # 目录跟踪-页面右侧的小目录
