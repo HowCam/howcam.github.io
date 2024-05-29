@@ -27,7 +27,7 @@
 
 决定加入我们了？
 
-请联系：:octicons-mail-24:[管理员](mailto:hownotfound@gmail.com)，投送你的简历。内容应包括：必要个人信息、联系方式、所掌握的开发技能以及深度、个人项目的仓库地址等。
+请联系：:octicons-mail-24: [管理员](mailto:hownotfound@gmail.com)，投送你的简历。内容应包括：必要个人信息、联系方式、所掌握的开发技能以及深度、个人项目的仓库地址等。
 
 
 
