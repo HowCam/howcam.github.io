@@ -12,7 +12,8 @@
 
 在开源社区，每个成员的贡献都是独一无二的，无论大小。通过共同努力，我们可以创造出更加强大、更有影响力的项目。记住，**你的每一分努力都是推动项目前进的动力**。
 
-!!! warning 本站所有内容均遵照[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode.zh-hans)协议开源，故若为此网站作出贡献，则**默认**所贡献的内容也以相同协议开源。
+!!! warning
+    本站所有内容均遵照[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode.zh-hans)协议开源，故若为此网站作出贡献，则**默认**所贡献的内容也以相同协议开源。
 
 ## 质量标准
 
