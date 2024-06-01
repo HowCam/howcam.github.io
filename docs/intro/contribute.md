@@ -17,7 +17,7 @@
 
 ## 质量标准
 
-在进行贡献之前，请确保你**了解**如何使用Markdown。这并不代表你需要精通Markdown这种标记语言。你只需要了解一些Markdown的特性与一些常用的语法。学习Markdown的基本用法通常只需要花费不到半小时。（[Markdown扫盲](Markdown扫盲.md))
+在进行贡献之前，请确保你**了解**如何使用Markdown。这并不代表你需要精通Markdown这种标记语言。你只需要了解一些Markdown的特性与一些常用的语法。学习Markdown的基本用法通常只需要花费不到半小时。（[Markdown扫盲](Markdown.md))
 
 本站利用docsify工具，将Markdown文件实时渲染成html供浏览器显示。故你不需要学习复杂的html的各种语法规则，只需要使用一些简单的“所见即所得”的Markdown编辑器（例如typora）来编写你的文档。文档入库之后就可以按照文档的排版格式在网站中展示。
 
