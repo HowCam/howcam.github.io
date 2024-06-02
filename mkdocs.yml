@@ -88,7 +88,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tilde 
+  - pymdownx.tilde #删除线
   - pymdownx.arithmatex:
       generic: true
   - toc:
