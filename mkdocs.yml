@@ -26,11 +26,13 @@ nav:
     - 加入我们: intro/join-us.md
   - 语文:
     - 语文笔记: Chinese/语文笔记.md
-    - 西游记: Chinese/西游记.md
-    - 朝花夕拾: Chinese/朝花夕拾.md
-    - 水浒传: Chinese/水浒传.md
-    - 儒林外史: Chinese/儒林外史.md
-    - 骆驼祥子: Chinese/骆驼祥子.md
+    - 名著专项:
+      - 西游记: Chinese/西游记.md
+      - 朝花夕拾: Chinese/朝花夕拾.md
+      - 水浒传: Chinese/水浒传.md
+      - 儒林外史: Chinese/儒林外史.md
+      - 骆驼祥子: Chinese/骆驼祥子.md
+      - 钢铁是怎样炼成的: Chinese/钢铁是怎样炼成的.md
     - 作文专项: Chinese/作文范文/目录.md
   - 数学:
     - 2017CMO-4: math/2017CMO-4.md
@@ -88,7 +90,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tilde #删除线
+  - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
   - toc:
