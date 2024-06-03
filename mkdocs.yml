@@ -25,6 +25,7 @@ nav:
     - Markdown扫盲: intro/Markdown.md
     - 加入我们: intro/join-us.md
   - 语文:
+    - 语文部分简介: Chinese/Chinese-intro.md
     - 语文笔记: Chinese/语文笔记.md
     - 名著专项:
       - 西游记: Chinese/西游记.md
@@ -34,18 +35,39 @@ nav:
       - 骆驼祥子: Chinese/骆驼祥子.md
       - 钢铁是怎样炼成的: Chinese/钢铁是怎样炼成的.md
       - 昆虫记: Chinese/昆虫记.md
-    - 作文专项: Chinese/作文范文/目录.md
+    - 作文专项:
+      - 分类作文集锦:
+        - 成长篇: Chinese/作文范文/成长篇.md
+        - 亲情篇: Chinese/作文范文/亲情篇.md
+        - 传统文化类: Chinese/作文范文/传统文化类.md
+      - 作文集锦:
+        - 我的青春里有一缕清香: Chinese/作文范文/我的青春里有一缕清香.md
+        - 终于找到答案: Chinese/作文范文/终于找到答案.md
+        - ___＿小天地大: Chinese/作文范文/___＿小天地大.md
+        - 青春要有一颗滚烫的心: Chinese/作文范文/青春要有一颗滚烫的心.md
+        - 那一抹中国红: Chinese/作文范文/那一抹中国红.md
+        - 那堂特别的语文课: Chinese/作文范文/那堂特别的语文课.md
+        - 《》让我学会＿_: Chinese/作文范文/《》让我学会＿_.md
+        - 不止一次，我＿: Chinese/作文范文/不止一次，我＿.md
+        - 冬日也是春: Chinese/作文范文/冬日也是春.md
+        - 守护＿_: Chinese/作文范文/守护＿_.md
   - 数学:
+    - 数学部分简介: math/math-intro.md
     - 2017CMO-4: math/2017CMO-4.md
   - 历史:
+    - 历史部分简介: history/history-intro.md
     - 九年级历史资料: history/九年级历史资料.md
   - 政治:
+    - 政治部分简介: politics/politics-intro.md
     - 九年级政治资料: politics/九年级政治资料.md
   - 化学:
+    - 化学部分简介: chemistry/chemistry-intro.md
     - 化学笔记: chemistry/化学笔记.md
   - 物理:
-    - 第一章 机械运动: physics/第一章-机械运动.md
-    - 第二章 声现象: physics/第二章-声现象.md
+    - 物理部分简介: physics/physics-intro.md
+    - 分章节讲稿:
+      - 第一章 机械运动: physics/第一章-机械运动.md
+      - 第二章 声现象: physics/第二章-声现象.md
 
 theme:
   name: material
