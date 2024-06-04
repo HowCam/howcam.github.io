@@ -63,6 +63,8 @@ nav:
   - 化学:
     - 化学部分简介: chemistry/chemistry-intro.md
     - 化学笔记: chemistry/化学笔记.md
+    - 分章节讲稿:
+      - 绪言 化学使世界变得更加绚丽多彩: chemistry/U0.md
   - 物理:
     - 物理部分简介: physics/physics-intro.md
     - 分章节讲稿:
