@@ -65,6 +65,7 @@ nav:
     - 化学笔记: chemistry/notes.md
     - 分章节讲稿:
       - 绪言 化学使世界变得更加绚丽多彩: chemistry/U0.md
+      - U1 走进化学世界: chemistry/U1.md
   - 物理:
     - 物理部分简介: physics/physics-intro.md
     - 分章节讲稿:
@@ -84,7 +85,7 @@ theme:
     - navigation.top
     - navigation.instant
     - navigation.instant.prefetch
-    - navigation.footer
+    # - navigation.footer
     - navigation.tracking
     - search.suggest # 搜索建议
     - search.highlight # 搜索高亮
