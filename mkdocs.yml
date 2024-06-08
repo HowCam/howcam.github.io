@@ -61,6 +61,10 @@ nav:
   - 历史:
     - 历史部分简介: history/history-intro.md
     - 九年级历史资料: history/grade-9.md
+    - 历史速查表格:
+      - 七年级: history/grade-7-form.md
+      - 八年级: history/grade-8-form.md
+      - 九年级: history/grade-9-form.md
   - 政治:
     - 政治部分简介: politics/politics-intro.md
     - 九年级政治资料: politics/grade-9.md
