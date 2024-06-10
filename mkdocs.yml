@@ -70,15 +70,19 @@ nav:
     - 九年级政治资料: politics/grade-9.md
   - 化学:
     - 化学部分简介: chemistry/chemistry-intro.md
-    - 化学笔记: chemistry/notes.md
+    - 初中化学笔记: chemistry/notes.md
     - 分章节讲稿:
-      - U0 绪言 化学使世界变得更加绚丽多彩: chemistry/U0.md
-      - U1 走进化学世界: chemistry/U1.md
+      - 初中化学:
+        - U0 绪言 化学使世界变得更加绚丽多彩: chemistry/U0.md
+        - U1 走进化学世界: chemistry/U1.md
   - 物理:
     - 物理部分简介: physics/physics-intro.md
     - 分章节讲稿:
-      - U1 机械运动: physics/U1.md
-      - U2 声现象: physics/U2.md
+      - 初中部分:
+        - U1 机械运动: physics/U1.md
+        - U2 声现象: physics/U2.md
+      - 高中部分:
+        - 这里还没有内容: physics-intro.md
 
 theme:
   name: material
