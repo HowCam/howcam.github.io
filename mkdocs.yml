@@ -81,10 +81,10 @@ nav:
     - 物理部分简介: physics/physics-intro.md
     - 分章节讲稿:
       - 初中部分:
-        - U1 机械运动: physics/U1.md
-        - U2 声现象: physics/U2.md
+        - U1 机械运动: physics/junior/U1.md
+        - U2 声现象: physics/junior/U2.md
       - 高中部分:
-        - 这里还没有内容: physics-intro.md
+        - U1 运动的描述: physics/senior/U1.md
 
 theme:
   name: material
