@@ -1259,7 +1259,7 @@ $$
 
 3、$CO_2+H_2O=H_2CO_3$          $H_2CO_3=H_2O+CO_2$
 
-4、$CO2+Ca(OH)2=CaCo3+H2O$
+4、$CO_2+Ca(OH)_2=CaCO_3+H_2O$
 
 5、弱氧化性
 
