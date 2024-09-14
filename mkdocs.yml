@@ -85,6 +85,10 @@ nav:
         - U2 声现象: physics/junior/U2.md
       - 高中部分:
         - U1 运动的描述: physics/senior/U1.md
+  - 生物:
+    - 生物部分简介: biology/biology-intro.md
+    - 高中部分:
+      - U1 走近细胞: biology/senior/U1.md
 
 theme:
   name: material
