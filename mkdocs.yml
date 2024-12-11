@@ -70,6 +70,8 @@ nav:
   - 政治:
     - 政治部分简介: politics/politics-intro.md
     - 九年级政治资料: politics/grade-9.md
+    - 高中部分:
+      - 必修一: politics/BX-1.md
   - 化学:
     - 化学部分简介: chemistry/chemistry-intro.md
     - 初中化学笔记: chemistry/notes.md
@@ -126,10 +128,13 @@ theme:
         icon: material/toggle-switch
         name: 切换到日间模式
 
-  plugins:
+plugins:
   - git-committers:
       repository: HowCam/howcam.github.io
       branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
 
 markdown_extensions:
   - admonition
