@@ -23,7 +23,7 @@ jobs: # 工作流的具体内容
       - name: Install dependencies
         run: |
           pip install mkdocs-material
-          pip install mkdocs-git-revision-date-plugin
+          pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-git-committers-plugin-2 # 安装相关插件
 
       - name: Deploy to GitHub Pages
