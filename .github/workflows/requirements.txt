@@ -1,0 +1,8 @@
+pytest
+pytest-cov
+codecov
+click
+mkdocs-material
+mkdocs-static-i18n
+mkdocs-gen-files
+mkdocs-git-authors-plugin
