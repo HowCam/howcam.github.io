@@ -132,7 +132,7 @@ plugins:
   - git-committers:
       repository: HowCam/howcam.github.io
       branch: main
-  - git-revision-date-localized:
+  - git-revision-date:
       enable_creation_date: true
       type: timeago
 
