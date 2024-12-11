@@ -17,5 +17,4 @@ jobs: # 工作流的具体内容
       - run: pip install mkdocs-material # 使用pip包管理工具安装mkdocs-material
       - run: pip install mkdocs-git-revision-date-localized-plugin # 安装插件：更新时间
       - run: pip install mkdocs-git-committers-plugin-2 # 安装插件：显示作者
-      - run: pip install -r .github/workflow/requirements.txt
       - run: mkdocs gh-deploy --force # 使用mkdocs-material部署gh-pages分支
