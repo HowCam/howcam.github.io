@@ -1,22 +1,32 @@
 name: publish site
 on: # 在什么时候触发工作流
-  push: # 在从本地main分支被push到GitHub仓库时
+  push: # 在从本地 main 分支被 push 到 GitHub 仓库时
     branches:
       - main
-  pull_request: # 在main分支合并别人提的pr时
+  pull_request: # 在 main 分支合并别人提的 PR 时
     branches:
       - main
 jobs: # 工作流的具体内容
   deploy:
-    runs-on: ubuntu-latest # 创建一个新的云端虚拟机 使用最新Ubuntu系统
+    runs-on: ubuntu-latest # 创建一个新的云端虚拟机，使用最新 Ubuntu 系统
     steps:
-      - uses: actions/checkout@v2 # 先checkout到main分支
-      - uses: actions/setup-python@v2 # 再安装Python3和相关环境
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          python-version: 3.x
-      - run: pip install mkdocs-material # 使用pip包管理工具安装mkdocs-material
-      - run: pip install mkdocs-git-revision-date-localized-plugin # 安装插件：更新时间
-      - run: pip install mkdocs-git-committers-plugin-2 # 安装插件：显示作者
+          fetch-depth: 0 # 拉取完整的 Git 历史记录
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-git-revision-date-plugin
+          pip install mkdocs-git-committers-plugin-2 # 安装相关插件
+
+      - name: Deploy to GitHub Pages
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
-      - run: mkdocs gh-deploy --force # 使用mkdocs-material部署gh-pages分支
+        run: mkdocs gh-deploy --force # 部署文档到 GitHub Pages
