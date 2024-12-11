@@ -102,6 +102,8 @@ theme:
   features:
     - content.action.edit
     - content.action.view
+    - content.editable
+    - content.revision
     - navigation.tabs
     - navigation.top
     - navigation.instant
@@ -132,9 +134,10 @@ plugins:
   - git-committers:
       repository: HowCam/howcam.github.io
       branch: main
-  - git-revision-date:
+  - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+      fallback_to_build_date: true
 
 markdown_extensions:
   - admonition
