@@ -131,6 +131,7 @@ theme:
         name: 切换到日间模式
 
 plugins:
+  - search
   - git-committers:
       repository: HowCam/howcam.github.io
       branch: main
