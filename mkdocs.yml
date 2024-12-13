@@ -71,7 +71,7 @@ nav:
     - 政治部分简介: politics/politics-intro.md
     - 九年级政治资料: politics/grade-9.md
     - 高中部分:
-      - 必修一: politics/BX-1.md
+      - 政治必修一: politics/BX-1.md
   - 化学:
     - 化学部分简介: chemistry/chemistry-intro.md
     - 初中化学笔记: chemistry/notes.md
@@ -91,7 +91,7 @@ nav:
     - 生物部分简介: biology/biology-intro.md
     - 高中部分:
       - U1 走近细胞: biology/senior/U1.md
-      - 必修一知识清单: biology/senior/BX-1.md
+      - 生物必修一: biology/senior/BX-1.md
 
 theme:
   name: material
