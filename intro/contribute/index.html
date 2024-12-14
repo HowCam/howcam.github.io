@@ -552,9 +552,33 @@
           <li class="md-nav__item">
   <a href="#github" class="md-nav__link">
     <span class="md-ellipsis">
-      在GitHub中进行文档编辑
+      在 GitHub 上编辑
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="在 GitHub 上编辑">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commit 信息格式规范
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Request 信息格式规范
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2682,9 +2706,33 @@
           <li class="md-nav__item">
   <a href="#github" class="md-nav__link">
     <span class="md-ellipsis">
-      在GitHub中进行文档编辑
+      在 GitHub 上编辑
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="在 GitHub 上编辑">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commit 信息格式规范
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Request 信息格式规范
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2770,7 +2818,7 @@
 
 
 <h1 id="_1">贡献指南<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p><strong>感谢你来到本页面</strong>-—这说明你是一个有奉献精神的人。本网站是由众多志愿者一起义务运营的，但仅凭目前的人手还不足以支撑我们的日常维护和内容产出。我们希望有更多愿意贡献自己知识和技术的志愿者加入我们。</p>
+<p><strong>感谢你来到本页面</strong>——这说明你是一个有奉献精神的人。本网站是由众多志愿者一起义务运营的，但仅凭目前的人手还不足以支撑我们的日常维护和内容产出。我们希望有更多愿意贡献自己知识和技术的志愿者加入我们。</p>
 <p>在正式参与之前，你需要了解这些东西。</p>
 <h2 id="_2">贡献范围<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>你可以对本站<strong><u>所有内容</u></strong>作出贡献，包括但不限于：<strong>编写和编辑文档</strong>、<strong>代码贡献</strong>、<strong>内容审查</strong>、<strong>外语翻译工作</strong>、<strong>设计贡献</strong>、<strong>网站维护</strong>、<strong>文档格式化</strong>、<strong>web前端开发</strong>。</p>
@@ -2781,7 +2829,6 @@
 </div>
 <h2 id="_3">质量标准<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p>在进行贡献之前，请确保你<strong>了解</strong>如何使用Markdown。这并不代表你需要精通Markdown这种标记语言。你只需要了解一些Markdown的特性与一些常用的语法。学习Markdown的基本用法通常只需要花费不到半小时。（<a href="../Markdown/">Markdown扫盲</a>)</p>
-<p>本站利用docsify工具，将Markdown文件实时渲染成html供浏览器显示。故你不需要学习复杂的html的各种语法规则，只需要使用一些简单的“所见即所得”的Markdown编辑器（例如typora）来编写你的文档。文档入库之后就可以按照文档的排版格式在网站中展示。</p>
 <p>文档具体的格式要求，请参看<a href="../format/">格式手册</a>。</p>
 <p>同时，为了让本站有意义，你的内容应符合以下标准：</p>
 <ul>
@@ -2797,19 +2844,70 @@
 </ul>
 <h2 id="_4">贡献方式<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>在确认好你的内容符合规范之后，你就可以正式作出贡献了。这里提供了几种可能的贡献方式。</p>
-<h3 id="github">在GitHub中进行文档编辑<a class="headerlink" href="#github" title="Permanent link">&para;</a></h3>
-<p>如果你熟悉GitHub，请点击每篇文章右上方的编辑按钮，打开本站对应的文件参与编辑。编辑完成后，请提交pull request.</p>
-<p>如果你没有使用过GitHub，可以参看<a href="../how-to-use-GitHub/">如何使用GitHub</a>。</p>
+<h3 id="github">在 GitHub 上编辑<a class="headerlink" href="#github" title="Permanent link">&para;</a></h3>
+<p>参与 <strong>OI Wiki</strong> 的编写 <strong>需要</strong> 一个 GitHub 账号（可以前往 <a href="https://github.com/signup">GitHub 的账号注册页面</a> 页面注册），但 <strong>不需要</strong> 高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够 <strong>非常出色</strong> 地完成编辑。</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>在你的更改被合并到 <strong>Starship</strong> 的主仓库之前，你对 <strong>Starship</strong> 的内容所作出的修改均不会出现在 <strong>Starship</strong> 的主站上，所以无需担心你的修改会破坏 <strong>Starship</strong> 上正在显示的内容。</p>
+<p>如果还是不放心，可以查看 <a href="https://skills.github.com/">GitHub 的官方教程</a>。</p>
+</details>
+<ol>
+<li>在 <strong>Starship</strong> 上找到对应页面；</li>
+<li>点击正文右上方（目录左侧）的「编辑此页」按钮，在确认您已经阅读了本页面和 <a href="/intro/format/">格式手册</a> 后点击按钮根据提示跳转到 GitHub 进行编辑；</li>
+<li>在编辑框内编写你想修改的内容。请注意，在修改和接下来的提交过程中，请 <strong>关闭您的自动翻译软件</strong>，因为它可能产生不必要的麻烦（例如您修改的文件有时会被其错误改名，从而影响目录结构）；</li>
+<li>编写完成后滚动到页面下方，按照本文中<a href="./#commit">commit 信息格式规范</a>填写 commit 信息，之后点击 <strong>Propose changes</strong> 按钮提交修改。点击按钮后，GitHub 会自动帮你创建一份 <strong>Starship</strong> 仓库的分支，并将你的提交添加到这个分支仓库。</li>
+<li>GitHub 会自动跳转到你的分支仓库的页面，此时页面上方会显示一个绿色的 <strong>Create pull request</strong> 按钮，点击后 GitHub 会跳转到一个创建 Pull Request 页面。向下滚动检查自己所作出的修改没有错误后，按照本文中<a href="./#pull-request">Pull Request 信息格式规范</a>一节中的规范书写 Pull Request 信息，然后点击页面上的绿色的 <strong>Create pull request</strong> 按钮创建一个新的PR。</li>
+<li>不出意外的话，你的 Pull Request 就顺利提交到仓库，等待管理员审核并合并到主仓库中即可。</li>
+</ol>
+<h4 id="commit">Commit 信息格式规范<a class="headerlink" href="#commit" title="Permanent link">&para;</a></h4>
+<p>对于提交时需要填写的 commit 信息，请遵守以下几点基本要求：</p>
+<ol>
+<li>commit 摘要请简要描述这一次 commit 改动的内容。注意 commit 摘要的长度不要超过 50 字符，超出的部分会自动置于正文中。</li>
+<li>如果需要进一步描述本次 commit 内容，请在正文中详细说明。</li>
+</ol>
+<p>对于 commit 摘要，推荐按照如下格式书写：</p>
+<div class="highlight"><pre><span></span><code>&lt;修改类型&gt;(&lt;文件名&gt;): &lt;修改的内容&gt;
+</code></pre></div>
+<p>修改类型分为如下几类：</p>
+<ul>
+<li><code>feat</code>：用于添加内容的情况。</li>
+<li><code>fix</code>：用于修正现有内容错误的情况。</li>
+<li><code>refactor</code>：用于对一个页面进行重构（较大规模的更改）的情况。</li>
+<li><code>revert</code>：用于回退之前更改的情况。</li>
+</ul>
+<h4 id="pull-request">Pull Request 信息格式规范<a class="headerlink" href="#pull-request" title="Permanent link">&para;</a></h4>
+<p>对于 Pull Request，请遵守以下几点要求：</p>
+<ol>
+<li>标题请写明本次 PR 的目的（做了 <strong>什么</strong> 工作，修复了 <strong>什么</strong> 问题）。</li>
+<li>内容请简要叙述修改的内容。如果修复了一个 issue 的问题，请在内容中添加 <code>fix #xxxx</code> 字段，其中 <code>xxxx</code> 代表 issue 的编号。</li>
+</ol>
+<p>对于 Pull Request 的标题，推荐使用如下格式书写：</p>
+<div class="highlight"><pre><span></span><code>&lt;修改类型&gt;(&lt;文件名&gt;): &lt;修改的内容&gt; (&lt;对应 issue 的编号&gt;)
+</code></pre></div>
+<p>修改类型分为如下几类：</p>
+<ul>
+<li><code>feat</code>：用于添加内容的情况。</li>
+<li><code>fix</code>：用于修正现有内容错误的情况。</li>
+<li><code>refactor</code>：用于对一个页面进行重构（较大规模的更改）的情况。</li>
+<li><code>revert</code>：用于回退之前更改的情况。</li>
+</ul>
+<p>示例：</p>
+<ul>
+<li><code>fix(ds/persistent-seg): 修改代码注释使描述更清晰</code></li>
+<li><code>fix: tools/judger/index 不在目录中 (#3709)</code></li>
+<li><code>feat(math/poly/fft): better proof</code></li>
+<li><code>refactor(ds/stack): 整理页面内容</code></li>
+</ul>
 <h3 id="githubissues">在GitHub中提起Issues<a class="headerlink" href="#githubissues" title="Permanent link">&para;</a></h3>
 <p>你可以通过Issues提出文档改进的建议，或者讨论更复杂的编辑事宜。</p>
 <h3 id="_5">本地编辑<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<p>如果你实在不会使用GitHub，你可以使用本地编辑的形式。你可以在本地使用文本编辑器（例如：NotePad++，typora）撰写文档。编辑完成后，你可以通过邮件的方式将markdown文档发送给管理员（点击<a href="mailto:hownotfound@gmail.com?subject=星舟Starship%20|%20">这里</a>向管理员发送邮件，如果浏览器或系统不支持mailto命令，可以手动复制地址<code>hownotfound@gmail.com</code>）。请注意，请在发送邮件的同时，附带上你的身份信息（可以是实名、也可以是虚拟的身份），以便我们在文章中署名。</p>
+<p>如果你实在不会使用GitHub，你可以使用本地编辑的形式。你可以在本地使用文本编辑器（例如：NotePad++，typora）撰写文档。编辑完成后，你可以通过邮件的方式将markdown文档发送给管理员（点击<a href="mailto:hownotfound@gmail.com?subject=星舟Starship |">这里</a>向管理员发送邮件，如果浏览器或系统不支持mailto命令，可以手动复制地址<code>hownotfound@gmail.com</code>）。请注意，请在发送邮件的同时，附带上你的身份信息（可以是实名、也可以是虚拟的身份），以便我们在文章中署名。</p>
 <h3 id="_6">校园张贴栏<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <p>如果你的学校有Starship的文稿收集志愿者，那么你甚至可以在校园张贴栏发表你的文章。如果我们的文稿收集志愿者看到了你的文章，会收录你的文章并在文章下方留下提示。</p>
 <p>请注意，如果你想通过这种方式发表文章，请你一定记得在文章开头留下我们网站的名字和网址，以便志愿者进行识别。请在张贴的同时，留下你的身份信息（可以是实名、也可以是虚拟的身份），以便我们在文章中署名。</p>
 <p>目前支持：<code>绵阳东辰学校弘毅楼</code>、<code>绵阳东辰高中广雅楼</code>。</p>
 <h3 id="_7">加入我们的讨论群<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
-<p>你可以加入我们的QQ讨论群<code>群号：959888475</code>。你可以和群里的志愿者们一起讨论，也可以通过群聊联系管理员提交你的内容。</p>
+<p>你可以加入我们的<a href="https://qm.qq.com/q/q7zRPbRU0S"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704"/></svg></span>QQ讨论群959888475</a>。你可以和群里的志愿者们一起讨论，也可以通过群聊联系管理员提交你的内容。</p>
 <h3 id="_8">通过各种媒介宣传我们的网站<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <p>你可以通过社交媒体、博客、内容营销、口头推荐甚至校园公告栏的形式帮助宣传我们的网站。这对于吸引更多用户和志愿者加入社区有着巨大的作用。</p>
 <p>都看到这里了，还不赶紧行动起来。</p>
@@ -2836,7 +2934,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月11日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年12月14日</span>
   </span>
 
     
@@ -2863,6 +2961,11 @@
 
     
     <nav>
+      
+        <a href="https://github.com/A-Penguin-Egg" class="md-author" title="@A-Penguin-Egg">
+          
+          <img src="https://avatars.githubusercontent.com/u/169567873?v=4&size=72" alt="A-Penguin-Egg">
+        </a>
       
         <a href="https://github.com/HowCam" class="md-author" title="@HowCam">
           
