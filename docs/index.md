@@ -4,7 +4,7 @@
 
 <img src="https://pic.imgdb.cn/item/663d5be50ea9cb1403b26600.png" style="zoom:25%;" />
 
-[![stars](https://badgen.net/github/stars/HowCam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io) [![forks](https://badgen.net/github/forks/howcam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io) 
+[![stars](https://badgen.net/github/stars/HowCam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io) [![forks](https://badgen.net/github/forks/howcam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io)
 
 ## 欢迎👏
 
@@ -39,10 +39,49 @@
 
 [查看本站文件结构:fontawesome-solid-paper-plane:](https://github.com/HowCam/howcam.github.io/blob/main/mkdocs.yml#L18){ .md-button target="_blank"}
 
+## 贡献者
+
+下面是部分贡献者的头像，感谢他们的贡献！🎉
+
+<div id="contributors" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 20px 0;"></div>
+
+<script>
+  // GitHub API 获取贡献者数据
+  fetch('https://api.github.com/repos/howcam/howcam.github.io/contributors')
+    .then(response => response.json())
+    .then(contributors => {
+      // 按贡献次数排序（从高到低）
+      contributors.sort((a, b) => b.contributions - a.contributions);
+
+      const container = document.getElementById("contributors");
+      contributors.forEach(contributor => {
+        const a = document.createElement("a");
+        a.href = `https://github.com/${contributor.login}`;
+        a.target = "_blank";  // 在新标签页打开
+        const img = document.createElement("img");
+        img.src = contributor.avatar_url;
+        img.alt = contributor.login;
+        img.style.width = "80px";
+        img.style.height = "80px";
+        img.style.borderRadius = "50%";
+        img.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
+        img.style.transition = "transform 0.3s";  // 平滑过渡
+        img.addEventListener("mouseenter", () => {
+          img.style.transform = "scale(1.1)";  // 鼠标悬停时缩放
+        });
+        img.addEventListener("mouseleave", () => {
+          img.style.transform = "scale(1)";  // 鼠标离开时恢复原始大小
+        });
+        a.appendChild(img);
+        container.appendChild(a);
+      });
+    })
+    .catch(error => console.error('Error fetching contributors:', error));
+</script>
+
 ## 写在最后
 
 - 本站建立于2024年夏，自建立以来经历多次大型调整。但受限于运维人手有限，故某些页面存在链接失效/错误、技术细节差错等问题，请您谅解。
-
 - 本站托管在GitHub上，内建的许多资源也是外网引入的，但我们尽可能保证国内网络环境也能使用网站。~~没办法GitHub虽慢但稳。~~
 - 在浏览过程中遇到的任何问题，您可以通过 [:material-email: 邮件](mailto:hownotfound@gmail.com) 或 [:fontawesome-brands-qq: QQ 3604402972](https://qm.qq.com/q/HXK1nkn8mA) 的方式向管理员咨询。
 - 如您遇到了网站内容的错误，若您方便，请您将相关情况反馈给管理员，我们感激您的反馈并将第一时间解决问题。
