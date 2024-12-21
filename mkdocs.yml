@@ -168,3 +168,6 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://jsd.cdn.zzko.cn/npm/mathjax@3/es5/tex-chtml.js
       
+extra_css:
+  - style/extra.css
+  - https://jsd.cdn.zzko.cn/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
