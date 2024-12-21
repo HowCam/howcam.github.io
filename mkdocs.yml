@@ -116,6 +116,7 @@ theme:
     - search.suggest # 搜索建议
     - search.highlight # 搜索高亮
     - toc.follow # 目录跟踪-页面右侧的小目录
+    - content.footnote.tooltips # 脚注提示工具（悬停显示）
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -144,6 +145,7 @@ plugins:
       fallback_to_build_date: true
 
 markdown_extensions:
+  - footnotes # 脚注
   - attr_list
   - admonition
   - pymdownx.mark
