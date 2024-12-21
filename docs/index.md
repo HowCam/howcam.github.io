@@ -22,7 +22,7 @@
 
 - 阅读 :octicons-book-16: ： **Starship** 拥有强大的文档渲染显示功能，可以将文档库中的 [Markdown:simple-markdown:](https://baike.baidu.com/item/markdown/3245829) 文件以完美的质量排版并显示。我们引入了一些插件来提供更好的显示效果。例如：[Admonitions（提示框）](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)、[Buttons（按钮）](https://squidfunk.github.io/mkdocs-material/reference/buttons/)、[LaTeX渲染引擎](https://cdn.jsdmirror.com/npm/mathjax@3/es5/tex-chtml.js)等。
 - 下载 :octicons-download-16: ：你可以在[Starship的GitHub仓库](https://github.com/HowCam/howcam.github.io/tree/main/docs)中或点击任意页面右上角 :material-file-eye: 轻松找到任意页面所对应的原文档来下载（并不推荐这种方式，因为会丢失网站的显示特殊效果）；或使用浏览器“打印”功能，保存页面为pdf文件（推荐使用此方式以获得最佳文本效果）。
-- 打印 :material-printer: ：请在网页加载完全后，直接调用浏览器的打印功能（ ++ctrl+p++ / ++command+p++ ），调整相关参数后直接打印。**Starship**会自动将所有的折叠内容展开以提供完美的显示效果。
+- 打印 :material-printer: ：请在网页加载完全后，滑动到页面最上端[^1]，直接调用浏览器的打印功能（ ++ctrl+p++ / ++command+p++ ），调整相关参数后直接打印。**Starship**会自动将所有的折叠内容展开以提供完美的显示效果。
 - 编辑 :material-file-edit: ：请参阅[贡献指南](/intro/contribute/)。
 
 **Starship**还有更多令人眼前一亮的功能，欢迎你在浏览的过程中自主探索。
@@ -46,3 +46,5 @@
 - 本站托管在GitHub上，内建的许多资源也是外网引入的，但我们尽可能保证国内网络环境也能使用网站。~~没办法GitHub虽慢但稳。~~
 - 在浏览过程中遇到的任何问题，您可以通过 [:material-email: 邮件](mailto:hownotfound@gmail.com) 或 [:fontawesome-brands-qq: QQ 3604402972](https://qm.qq.com/q/HXK1nkn8mA) 的方式向管理员咨询。
 - 如您遇到了网站内容的错误，若您方便，请您将相关情况反馈给管理员，我们感激您的反馈并将第一时间解决问题。
+
+[^1]: 由于未知的原因，在非文档开头的位置调用打印会有一定概率失败（已知macOS 14.6.1 + Google Chrome 131.0.6778.205会较高概率出现）
