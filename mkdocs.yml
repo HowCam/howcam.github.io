@@ -64,11 +64,14 @@ nav:
     - 一道奇怪的题: math/AStrangeProblem.md
   - 历史:
     - 历史部分简介: history/history-intro.md
-    - 九年级历史资料: history/grade-9.md
-    - 历史速查表格:
-      - 七年级: history/grade-7-form.md
-      - 八年级: history/grade-8-form.md
-      - 九年级: history/grade-9-form.md
+    - 初中部分:
+      - 九年级历史资料: history/grade-9.md
+      - 历史速查表格:
+        - 七年级: history/grade-7-form.md
+        - 八年级: history/grade-8-form.md
+        - 九年级: history/grade-9-form.md
+    - 高中部分:
+      - 中国古代政治制度: history/political-system-of-ancient-China.md
   - 政治:
     - 政治部分简介: politics/politics-intro.md
     - 九年级政治资料: politics/grade-9.md
@@ -115,6 +118,7 @@ theme:
     - search.suggest # 搜索建议
     - search.highlight # 搜索高亮
     - toc.follow # 目录跟踪-页面右侧的小目录
+    - content.footnote.tooltips # 脚注提示工具（悬停显示）
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -143,6 +147,7 @@ plugins:
       fallback_to_build_date: true
 
 markdown_extensions:
+  - footnotes # 脚注
   - attr_list
   - admonition
   - pymdownx.mark
@@ -165,3 +170,6 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://jsd.cdn.zzko.cn/npm/mathjax@3/es5/tex-chtml.js
       
+extra_css:
+  - style/extra.css
+  - https://jsd.cdn.zzko.cn/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
