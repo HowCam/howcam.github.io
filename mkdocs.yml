@@ -167,7 +167,7 @@ markdown_extensions:
   
 
 extra_javascript:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://jsd.cdn.zzko.cn/npm/js-polyfills@0.1.43/polyfill.min.js
   - https://jsd.cdn.zzko.cn/npm/mathjax@3/es5/tex-chtml.js
       
 extra_css:
