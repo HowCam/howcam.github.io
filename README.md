@@ -17,7 +17,7 @@
 
 ## 欢迎👏
 
-欢迎来到**Starship**的仓库，若您初次到访，请先阅读以下内容以了解**Starship**。
+欢迎来到**Starship**的仓库。
 
 ## Starship是什么
 
