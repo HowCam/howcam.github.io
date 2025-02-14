@@ -30,9 +30,6 @@ jobs:
       - name: Build site
         run: mkdocs build
 
-      - name: Add CNAME file
-        run: echo "starship.howcam.top" > site/CNAME
-
       - name: Deploy to GitHub Pages
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
