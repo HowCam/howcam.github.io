@@ -29,5 +29,5 @@
 
 - 本站建立于2024年夏，自建立以来经历多次大型调整。但受限于运维人手有限，故某些页面存在链接失效/错误、技术细节差错等问题，请您谅解。
 - 本站托管在GitHub上，但我们尽可能保证国内网络环境也能使用网站。~~没办法GitHub虽慢但稳。~~
-- 在浏览过程中遇到的任何问题，您可以通过 [邮件](mailto:hownotfound@gmail.com) 或 [QQ 3604402972](https://qm.qq.com/q/HXK1nkn8mA) 或 Telegram@howcamz 的方式向管理员咨询。
+- 在浏览过程中遇到的任何问题，您可以通过 [邮件](mailto:hownotfound@gmail.com) 或 [QQ 3604402972](https://qm.qq.com/q/HXK1nkn8mA) 或 Telegram[@howcamz](https://t.me/howcamz) 的方式向管理员咨询。
 - 如您遇到了网站内容的错误，若您方便，请您将相关情况反馈给管理员，我们感激您的反馈并将第一时间解决问题。
