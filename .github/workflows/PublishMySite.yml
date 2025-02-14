@@ -1,19 +1,20 @@
 name: publish site
-on: # 在什么时候触发工作流
-  push: # 在从本地 main 分支被 push 到 GitHub 仓库时
+on:
+  push:
     branches:
       - main
-  pull_request: # 在 main 分支合并别人提的 PR 时
+  pull_request:
     branches:
       - main
-jobs: # 工作流的具体内容
+
+jobs:
   deploy:
-    runs-on: ubuntu-latest # 创建一个新的云端虚拟机，使用最新 Ubuntu 系统
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # 拉取完整的 Git 历史记录
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,9 +25,15 @@ jobs: # 工作流的具体内容
         run: |
           pip install mkdocs-material
           pip install mkdocs-git-revision-date-localized-plugin
-          pip install mkdocs-git-committers-plugin-2 # 安装相关插件
+          pip install mkdocs-git-committers-plugin-2
+
+      - name: Build site
+        run: mkdocs build
+
+      - name: Add CNAME file
+        run: echo "starship.howcam.top" > site/CNAME
 
       - name: Deploy to GitHub Pages
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
-        run: mkdocs gh-deploy --force # 部署文档到 GitHub Pages
+        run: mkdocs gh-deploy --force --clean
