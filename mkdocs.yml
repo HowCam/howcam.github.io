@@ -1,5 +1,5 @@
 site_name: 星舟Starship
-site_url: https://howcam.github.io/
+site_url: https://starship.howcam.top/
 site_author: Starship Dev Team
 edit_uri: edit/main/docs/
 
@@ -139,13 +139,13 @@ theme:
 
 plugins:
   - search
-  - git-committers:
-      repository: HowCam/howcam.github.io
-      branch: main
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-      fallback_to_build_date: true
+  # - git-committers:
+  #     repository: HowCam/howcam.github.io
+  #     branch: main
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+  #     fallback_to_build_date: true
 
 markdown_extensions:
   - footnotes # 脚注
