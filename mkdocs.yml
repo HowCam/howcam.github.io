@@ -101,6 +101,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
   favicon: images/favicon.png
   icon:
@@ -120,6 +121,7 @@ theme:
     - search.highlight # 搜索高亮
     - toc.follow # 目录跟踪-页面右侧的小目录
     - content.footnote.tooltips # 脚注提示工具（悬停显示）
+    - announce.dismiss # 允许用户关闭公告栏
   palette:
     # Palette toggle for light mode
     - scheme: default
