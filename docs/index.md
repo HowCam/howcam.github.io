@@ -14,7 +14,7 @@
 
 本站是基于 [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 构建的开放知识库。
 
-**Starship**旨在为中学阶段的学生提供知识分享平台，我们欢迎愿意分享知识的同学参与丰富我们的内容。[如何贡献？](/intro/contribute/)
+**Starship**旨在为中学阶段的学生提供知识分享平台，我们欢迎愿意分享知识的同学参与丰富我们的内容。[如何贡献？](intro/contribute.md)
 
 ## Starship的功能
 
@@ -23,7 +23,7 @@
 - 阅读 :octicons-book-16: ： **Starship** 拥有强大的文档渲染显示功能，可以将文档库中的 [Markdown:simple-markdown:](https://baike.baidu.com/item/markdown/3245829) 文件以完美的质量排版并显示。我们引入了一些插件来提供更好的显示效果。例如：[Admonitions（提示框）](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)、[Buttons（按钮）](https://squidfunk.github.io/mkdocs-material/reference/buttons/)、[LaTeX渲染引擎](https://cdn.jsdmirror.com/npm/mathjax@3/es5/tex-chtml.js)等。
 - 下载 :octicons-download-16: ：你可以在[Starship的GitHub仓库](https://github.com/HowCam/howcam.github.io/tree/main/docs)中或点击任意页面右上角 :material-file-eye: 轻松找到任意页面所对应的原文档来下载（并不推荐这种方式，因为会丢失网站的显示特殊效果）；或使用浏览器“打印”功能，保存页面为pdf文件（推荐使用此方式以获得最佳文本效果）。
 - 打印 :material-printer: ：请在网页加载完全后，滑动到页面最上端[^1]，直接调用浏览器的打印功能（ ++ctrl+p++ / ++command+p++ ），调整相关参数后直接打印。**Starship**会自动将所有的折叠内容展开以提供完美的显示效果。
-- 编辑 :material-file-edit: ：请参阅[贡献指南](/intro/contribute/)。
+- 编辑 :material-file-edit: ：请参阅[贡献指南](intro/contribute.md)。
 
 **Starship**还有更多令人眼前一亮的功能，欢迎你在浏览的过程中自主探索。
 

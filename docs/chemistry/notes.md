@@ -653,9 +653,7 @@ $Mg+O_2\xrightarrow{点燃}MgO$
 
 5、常见原子的离子符号
 
-![image-20231005204609338](/Users/howcam/Library/Application Support/typora-user-images/image-20231005204609338.png)
-
-![image-20231005204932781](/Users/howcam/Library/Application Support/typora-user-images/image-20231005204932781.png)
+<!-->to do<--->
 
 二、离子化合物
 
