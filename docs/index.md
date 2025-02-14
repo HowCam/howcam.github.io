@@ -4,7 +4,7 @@
 
 <img src="https://pic.imgdb.cn/item/663d5be50ea9cb1403b26600.png" style="zoom:25%;" />
 
-[![stars](https://badgen.net/github/stars/HowCam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io) [![forks](https://badgen.net/github/forks/howcam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io)
+[![stars](https://badgen.net/github/stars/HowCam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io) [![forks](https://badgen.net/github/forks/howcam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io)[![forks](https://badgen.net/github/watchers/howcam/howcam.github.io?icon=github&color=4ab8a1)](https://github.com/howcam/howcam.github.io)
 
 ## 欢迎👏
 
