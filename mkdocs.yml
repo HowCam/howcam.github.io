@@ -61,9 +61,13 @@ nav:
       - 小说类文本: Chinese/Novel-like-articles.md
   - 数学:
     - 数学部分简介: math/math-intro.md
-    - 2017CMO-4: math/2017CMO-4.md
-    - 2019CMO-2: math/2019CMO-2.md
-    - 一道奇怪的题: math/AStrangeProblem.md
+    - 数学题目分享:
+      - 2017CMO-4: math/2017CMO-4.md
+      - 2019CMO-2: math/2019CMO-2.md
+      - 一道奇怪的题: math/AStrangeProblem.md
+    - 高中数学:
+      - 三角恒等变换:
+        - 三角恒等变换公式: math/Trigonometric-identities.md
   - 历史:
     - 历史部分简介: history/history-intro.md
     - 初中部分:
