@@ -97,7 +97,10 @@ nav:
         - U1 机械运动: physics/junior/U1.md
         - U2 声现象: physics/junior/U2.md
       - 高中部分:
-        - U1 运动的描述: physics/senior/U1.md
+        - 必修一:
+          - U1 运动的描述: physics/senior/BX-1/U1.md
+        - 必修三:
+          - U1 静电场: physics/senior/BX-3/U1.md
   - 生物:
     - 生物部分简介: biology/biology-intro.md
     - 初中部分:
@@ -148,13 +151,13 @@ theme:
 
 plugins:
   - search
-  - git-committers:
-      repository: HowCam/howcam.github.io
-      branch: main
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-      fallback_to_build_date: true
+  # - git-committers:
+  #     repository: HowCam/howcam.github.io
+  #     branch: main
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+  #     fallback_to_build_date: true
 
 markdown_extensions:
   - footnotes # 脚注
