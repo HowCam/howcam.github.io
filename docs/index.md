@@ -12,7 +12,9 @@
 
 ## Starship是什么
 
-本站是基于 [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 构建的开放知识库。
+星舟 Starship 是一个由中学生构建与共享的开放知识平台，涵盖政治、历史、理科、生物等多学科学习资源。你可以自由浏览、下载、打印高质量内容，也可以贡献自己整理的笔记或讲稿。平台界面美观，支持 Markdown 排版及 LaTeX 数学公式渲染，社区活跃，迭代持续中。
+
+本站基于 [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) 构建。
 
 **Starship**旨在为中学阶段的学生提供知识分享平台，我们欢迎愿意分享知识的同学参与丰富我们的内容。[如何贡献？](intro/contribute.md)
 
@@ -26,18 +28,6 @@
 - 编辑 :material-file-edit: ：请参阅[贡献指南](intro/contribute.md)。
 
 **Starship**还有更多令人眼前一亮的功能，欢迎你在浏览的过程中自主探索。
-
-## Starship的文件结构
-
-**Starship**采用树形文件结构，总共分为三级。现对各级别定义如下。
-
-- 一级：学科/分区；
-
-- 二级：文档/文件夹；
-
-- 三级：文档中的不同等级标题；
-
-[查看本站文件结构:fontawesome-solid-paper-plane:](https://github.com/HowCam/howcam.github.io/blob/main/mkdocs.yml#L18){ .md-button target="_blank"}
 
 ## 贡献者
 
