@@ -100,7 +100,8 @@ nav:
         - 必修一:
           - U1 运动的描述: physics/senior/BX-1/U1.md
         - 必修三:
-          - U1 静电场: physics/senior/BX-3/U1.md
+          - U1 静电场:
+            - U1-1 电荷 电荷守恒定律: physics/senior/BX-3/U1-1.md
   - 生物:
     - 生物部分简介: biology/biology-intro.md
     - 初中部分:
