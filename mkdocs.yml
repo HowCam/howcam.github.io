@@ -19,6 +19,7 @@ nav:
   - 首页: 
     - 首页: index.md
     - 贡献指南: intro/contribute.md
+    - 参与编辑: intro/edit.md
     - 格式手册: intro/format.md
     - 数学符号表: intro/symbol.md
     - 如何使用GitHub: intro/how-to-use-GitHub.md

@@ -151,14 +151,14 @@
 | n8.16 | $\left(\dfrac{\mathrm{d}f}{\mathrm{d}x}\right)_{x=a}$;<br>$f'(a)$ | $f$ 在 $a$ 处的导（函）数值                                  | 参见 n8.15                                                   |
 | n8.17 | $\dfrac{\mathrm{d}^n f}{\mathrm{d}x^n}$;<br>$f^{(n)}$        | $f$ 对 $x$ 的 $n$ 阶导（函）数                               | 仅用于一元函数。<br>可以显式指明自变量，如 $\dfrac{\mathrm{d}^n f(x)}{\mathrm{d}x^n}$，$f^{(n)}(x)$.<br>可用 $f''$ 和 $f'''$ 分别表示 $f^{(2)}$ 和 $f^{(3)}$. |
 | n8.18 | $\dfrac{\partial f}{\partial x}$;<br>$f_x$                   | $f$ 对 $x$ 的偏导数                                          | 仅用于多元函数。<br>可以显式指明自变量，如 $\dfrac{\partial f(x, y, \dots)}{\partial x}$，$f_x(x, y, \dots)$.<br>可以扩展到高阶，如 $f_{xx}=\dfrac{\partial^2 f}{\partial x^2}=\dfrac{\partial}{\partial x}\left(\dfrac{\partial f}{\partial x}\right)$;<br>$f_{xy}=\dfrac{\partial^2 f}{\partial y\partial x}=\dfrac{\partial}{\partial y}\left(\dfrac{\partial f}{\partial x}\right)$. |
-| n8.19 | $\dfrac{\partial(f_1, \dots, f_m)}{\partial(x_1, \dots, x_n)}$ | Jacobi 矩阵                                                  | *参见*[^n8.19-ref1]                                          |
+| n8.19 | $\dfrac{\partial(f_1, \dots, f_m)}{\partial(x_1, \dots, x_n)}$ | Jacobi 矩阵                                                  | *参见*[^n8.19]                                          |
 | n8.20 | $\mathrm{d}f$                                                | $f$ 的全微分                                                 | $\mathrm{d}f(x, y, \dots)=\dfrac{\partial f}{\partial x}\mathrm{d}x+\dfrac{\partial f}{\partial y}\mathrm{d}y+\dots$. |
 | n8.21 | $\delta f$                                                   | $f$ 的（无穷小）变分                                         |                                                              |
 | n8.22 | $\displaystyle \int f(x)\mathrm{d}x$                         | $f$ 的不定积分                                               |                                                              |
 | n8.23 | $\displaystyle \int\limits_a^b f(x)\mathrm{d}x$              | $f$ 从 $a$ 到 $b$ 的定积分                                   | 也可使用 $\displaystyle \int\nolimits_a^b f(x)\mathrm{d}x$;<br>定积分还可以定义在更一般的域上。如 $\displaystyle\int\limits_C$，$\displaystyle\int\limits_S$，$\displaystyle\int\limits_V$，$\displaystyle\oint$, 分别表示在曲线 $C$, 曲面 $S$, 三维区域 $V$, 和闭曲线或曲面上的定积分。<br>多重积分可写成 $\displaystyle\iint$，$\displaystyle\iiint$ 等。 |
 | n8.24 | $f*g$                                                        | 函数 $f$ 和 $g$ 的卷积                                       | $\displaystyle (f*g)(x)=\int\limits_{-\infty}^{\infty}f(y)g(x-y)\mathrm{d}y$. |
 
-[^n8.19-ref1]: $\dfrac{\partial(f_1, \dots, f_m)}{\partial(x_1, \dots, x_n)}=\begin{pmatrix}\dfrac{\partial f_1}{\partial x_1}&\cdots&\dfrac{\partial f_1}{\partial x_n}\\\vdots&\ddots&\vdots\\\dfrac{\partial f_m}{\partial x_1}&\cdots&\dfrac{\partial f_m}{\partial x_n}\end{pmatrix}$; 矩阵的定义参见 n12.1
+[^n8.19]: $\dfrac{\partial(f_1, \dots, f_m)}{\partial(x_1, \dots, x_n)}=\begin{pmatrix}\dfrac{\partial f_1}{\partial x_1}&\cdots&\dfrac{\partial f_1}{\partial x_n}\\\vdots&\ddots&\vdots\\\dfrac{\partial f_m}{\partial x_1}&\cdots&\dfrac{\partial f_m}{\partial x_n}\end{pmatrix}$; 矩阵的定义参见 n12.1
 
 ## 指数和对数函数
 
@@ -220,7 +220,7 @@ $x$ 可以是复数。
 
 | 编号   | 符号，表达式                       | 意义，等同表述             | 备注与示例                                                   |
 | ------ | ---------------------------------- | -------------------------- | ------------------------------------------------------------ |
-| n12.1  | $A$;<br>*参见*n12.1-ref1           | $m\times n$ 型矩阵 $A$     | $a_{ij} = (A)_{ij}$;<br>也可使用 $A = (a_{ij})$. 其中 $m$ 为行数，$n$ 为列数<br>$m=n$ 时称为方阵<br>可用方括号替代圆括号。 |
+| n12.1  | $A$;<br>*参见*[^n12.1]           | $m\times n$ 型矩阵 $A$     | $a_{ij} = (A)_{ij}$;<br>也可使用 $A = (a_{ij})$. 其中 $m$ 为行数，$n$ 为列数<br>$m=n$ 时称为方阵<br>可用方括号替代圆括号。 |
 | n12.2  | $A + B$                            | 矩阵 $A$ 和 $B$ 的和       | $(A + B)_{ij} = (A)_{ij} + (B)_{ij}$;<br>矩阵 $A$ 和 $B$ 的行数和列数必须分别相同。 |
 | n12.3  | $x A$                              | 标量 $x$ 和矩阵 $A$ 的乘积 | $(x A)_{ij} = x (A)_{ij}$.                                   |
 | n12.4  | $AB$                               | 矩阵 $A$ 和 $B$ 的乘积     | $\displaystyle(AB)_{ik} = \sum\limits_{j}(A)_{ij}(B)_{jk}$;<br>矩阵 $A$ 的列数必须等于矩阵 $B$ 的行数。 |
@@ -229,14 +229,14 @@ $x$ 可以是复数。
 | n12.7  | $A^{\mathrm{T}}$;<br>$A'$          | $A$ 的转置矩阵             | $(A^{\mathrm{T}})_{ik} = (A)_{ki}$.                          |
 | n12.8  | $\overline{A}$;<br>$A^*$           | $A$ 的复共轭矩阵           | $\left(\overline{A}\right)_{ik}=\overline{(A)_{ik}}$.        |
 | n12.9  | $A^{\mathrm{H}}$;<br>$A^{\dagger}$ | $A$ 的 Hermite 共轭矩阵    | $A^{\mathrm{H}} = \left(\overline{A}\right)^{\mathrm{T}}$.   |
-| n12.10 | $\det A$;<br>*参见*[^n12.10-ref1]  | 方阵 $A$ 的行列式          | 也可使用 $\lvert A\rvert$.                                   |
+| n12.10 | $\det A$;<br>*参见*[^n12.10]  | 方阵 $A$ 的行列式          | 也可使用 $\lvert A\rvert$.                                   |
 | n12.11 | $\operatorname{rank}A$             | 矩阵 $A$ 的秩              |                                                              |
 | n12.12 | $\operatorname{tr}A$               | 方阵 $A$ 的迹              | $\displaystyle\operatorname{tr}A=\sum\limits_{i}(A)_{ii}$.   |
 | n12.13 | $\lVert A\rVert$                   | 矩阵 $A$ 的范数            | 满足三角不等式：若 $A + B = C$, 则 $\lVert A\rVert+\lVert B\rVert \geq \lVert C\rVert$. |
 
-[^n12.1-ref1]: $\begin{pmatrix}a_{11}&\cdots&a_{1n}\\\vdots&\ddots&\vdots\\a_{m1}&\cdots&a_{mn}\end{pmatrix}$
+[^n12.1]: $\begin{pmatrix}a_{11}&\cdots&a_{1n}\\\vdots&\ddots&\vdots\\a_{m1}&\cdots&a_{mn}\end{pmatrix}$
 
-[^n12.10-ref1]: $\begin{vmatrix}a_{11}&\cdots&a_{1n}\\\vdots& &\vdots\\a_{n1}&\cdots&a_{nn}\end{vmatrix}$
+[^n12.10]: $\begin{vmatrix}a_{11}&\cdots&a_{1n}\\\vdots& &\vdots\\a_{n1}&\cdots&a_{nn}\end{vmatrix}$
 
 ## 坐标系
 
