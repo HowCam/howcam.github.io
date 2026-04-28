@@ -104,6 +104,9 @@ nav:
         - 必修三:
           - U1 静电场:
             - U1-1 电荷 电荷守恒定律: physics/senior/BX-3/U1-1.md
+        - 选择性必修二:
+          - U4 电磁震荡与电磁波:
+            - U4-1 电磁震荡: physics/senior/XB-2/U4-1.md
   - 生物:
     - 生物部分简介: biology/biology-intro.md
     - 初中部分:
