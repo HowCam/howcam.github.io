@@ -1,19 +1,49 @@
-开始编辑/开发前，需要运行：
+# AI 编辑技能文档
 
+## 1. 开发环境
+
+### 启动开发服务器
+
+```bash
 mkdocs serve
+```
 
-开始运行开发服务器，并打开localhost:8000网页
+**重要提示**：开发前需将 `mkdocs.yml` 中的 `plugins` 下 `git-committers` 和 `git-revision-date-localized` 相关配置注释掉，避免频繁获取版本信息。
 
-运行前，需要将./mkdocs.yml下的plugins的git-committers插件和git-revision-date-localized插件相关代码注释掉，避免在开发过程中反复获取committers信息。
+### 配置管理
 
-所有的配置都在mkdocs.yml下，包括文件目录。注意，在新增页面时，要及时同步更新yml中的nav内容。
+- 所有配置集中在 `mkdocs.yml`
+- 新增页面时，必须同步更新 `nav` 部分
 
-学术用语务必准确，参考人教版教科书的内容。在必要时可以使用专属语法（见下方）
+---
 
-编辑时，注意可以使用mkdocs material的专属语法：
+## 2. 内容规范
 
-1. 提示块 Admonitions
+### 2.1 结构层级
 
+- `##` 一级标题（章节）
+- `###` 二级标题（知识点）
+- `####` 三级标题（细分子节）
+
+### 2.2 关键内容标注
+
+- **加粗**：用于关键术语、重要概念
+- `==高亮==`：突出显示文本
+- `$公式$` 或 `\[公式\]`：数学公式
+
+### 2.3 学术用语
+
+- 参考人教版教科书
+- 用词准确规范
+- 逻辑结构清晰
+
+---
+
+## 3. Markdown Material 专属语法
+
+### 3.1 提示块 (Admonitions)
+
+```markdown
 !!! note "普通笔记"
     笔记内容
 
@@ -26,95 +56,139 @@ mkdocs serve
 !!! warning "警告"
     风险提醒
 
-!!! danger "危险"
-    高危警示
+!!! question "问题"
+    问题内容
+```
 
+可折叠版本：
+
+```markdown
 ??? note "默认折叠"
-    折叠隐藏内容
+    折叠内容
 
 ???+ note "默认展开"
-    默认直接展开
-2. 带标题代码块
-
-```python title="Python 示例"
-print("Hello MkDocs Material")
-plaintext
-
-### 3. 代码行号 + 高亮
+    默认展开内容
 ```
-```javascript linenums="1" hl_lines="2-3"
-let a = 1;
-let b = 2;
-let c = 3;
-plaintext
 
-### 4. 代码行标注
-```
-```css
-.box { padding: 10px; } // (1)
-内边距设置说明
-plaintext
+### 3.2 数学公式
 
-### 5. 按钮 Buttons
-```
-[普通按钮](https://example.com){ .md-button }
-[主按钮](https://example.com){ .md-button .md-button--primary }
-[下载 :material-download:](https://example.com){ .md-button }
-6. 图标 Icons
-
-Material图标：:material-home: :material-github:
-FontAwesome图标：:fontawesome-solid-github: :fontawesome-solid-user:
-7. 标签页 Tabs
-
-=== "标签一"
-    标签一内容
-
-=== "标签二"
-    标签二内容
-8. 图片增强
-
-![居中图片](demo.png){ align=center }
-![左对齐](demo.png){ align=left }
-![右对齐](demo.png){ align=right }
-![缩放图片](demo.png){ width=50% }
-9. 文本高亮
-
-==高亮显示文本内容==
-10. 键盘按键
-
-++Ctrl+S++
-++Command+Enter++
-++Shift+Esc++
-11. 数学公式
-
+```markdown
 行内公式：$E=mc^2$
 
+块级公式：
 \[
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
 \]
-12. 任务列表
+```
 
-- [x] 已完成任务
-- [ ] 未完成任务
-- [ ] 待办任务
-13. 页面 Front Matter
+### 3.3 表格
+
+```markdown
+| 列1 | 列2 | 列3 |
+|------|------|------|
+| 内容 | 内容 | 内容 |
+```
+
+### 3.4 代码块
+
+```markdown
+标题：
+```python title="Python 示例"
+code
+```
+
+行号+高亮：
+```javascript linenums="1" hl_lines="2-3"
+let a = 1;
+let b = 2;
+```
+
+### 3.5 任务列表
+
+```markdown
+- [x] 已完成
+- [ ] 待办
+```
+
+### 3.6 键盘按键
+
+```markdown
+++Ctrl+S++
+++Command+Enter++
+```
+
+### 3.7 图片
+
+```markdown
+![描述](url){ align=center }
+![描述](url){ width=50% }
+```
 
 ---
-title: 页面标题
-icon: material/rocket
-status: new
-tags: [MkDocs, Material]
-hide:
-  - navigation
-  - toc
-toc:
-  depth: 3
-  title: 自定义目录
+
+## 4. 内容模式
+
+### 4.1 知识点文档
+
+```
+## 章节标题
+
+### 小节
+
+**概念**
+内容...
+
+!!! note "要点"
+    要点内容
+
+| 项目 | 说明 |
+|------|------|
+| 内容 | 说明 |
+```
+
+### 4.2 比较表格
+
+用于对比多个概念的异同：
+
+```markdown
+!!! note "比较"
+
+    | 特征 | 概念A | 概念B |
+    |------|------|------|
+    | 特点1 | ... | ... |
+    | 特点2 | ... | ... |
+```
+
+### 4.3 例题与练习
+
+```markdown
+???+ success "例题"
+    
+    题目...
+    
+    答案：...
+```
+
 ---
-14. 页面内目录
 
-[TOC]
-15. 隐藏注释
+## 5. 常见操作
 
-<!-- 注释内容，页面不渲染显示 -->
+### 5.1 新增页面
 
+1. 在 `docs/` 下创建 `.md` 文件
+2. 在 `mkdocs.yml` 的 `nav` 部分添加入口
+3. 使用 `mkdocs serve` 预览效果
+
+---
+
+## 6. 文件组织
+
+```
+docs/
+├── index.md          # 首页
+├── [科目]/
+│   ├── [科目]-intro.md    # 科目简介
+│   ├── notes.md           # 主笔记
+│   ├── [年级]/
+│   │   ├── U1.md          # 章节内容
+│   │   └── ...
