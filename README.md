@@ -31,3 +31,24 @@
 - 本站托管在GitHub上，但我们尽可能保证国内网络环境也能使用网站。~~没办法GitHub虽慢但稳。~~
 - 在浏览过程中遇到的任何问题，您可以通过 [邮件](mailto:hownotfound@gmail.com) 或 [QQ 3604402972](https://qm.qq.com/q/HXK1nkn8mA) 或 Telegram[@howcamz](https://t.me/howcamz) 的方式向管理员咨询。
 - 如您遇到了网站内容的错误，若您方便，请您将相关情况反馈给管理员，我们感激您的反馈并将第一时间解决问题。
+
+## 技术栈
+
+- **框架**：MkDocs + Material for MkDocs
+- **托管**：GitHub Pages
+- **协议**：MIT License
+
+## 快速开始
+
+```bash
+# 克隆仓库
+git clone https://github.com/HowCam/howcam.github.io.git
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 启动开发服务器
+mkdocs serve
+```
+
+访问 `http://localhost:8000` 即可预览网站。
