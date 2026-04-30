@@ -36,7 +36,8 @@
 
 - **框架**：MkDocs + Material for MkDocs
 - **托管**：GitHub Pages
-- **协议**：Apache License 2.0
+- **代码协议**：Apache License 2.0
+- **文档内容协议**：CC BY-NC 4.0
 
 ## 快速开始
 
