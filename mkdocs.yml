@@ -121,6 +121,8 @@ nav:
       - 必修二:
         - U1 遗传因子的发现:
           - U1-1 孟德尔的豌豆杂交实验（一）: biology/senior/BX-2/U1-1.md
+        - U2 基因和染色体的关系:
+          - U2-1 减数分裂和受精作用: biology/senior/BX-2/U2-1.md
       - 选择性必修三:
         - U1 发酵工程:
           - U1-1 传统发酵技术的应用: biology/senior/XB-3/U1.md
@@ -167,13 +169,13 @@ theme:
 
 plugins:
   - search
-  # - git-committers:
-  #     repository: HowCam/howcam.github.io
-  #     branch: main
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: date
-  #     fallback_to_build_date: true
+  - git-committers:
+      repository: HowCam/howcam.github.io
+      branch: main
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      fallback_to_build_date: true
 
 markdown_extensions:
   - footnotes # 脚注
