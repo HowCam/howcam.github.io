@@ -128,8 +128,19 @@ nav:
         - U2 基因和染色体的关系:
           - U2-1 减数分裂和受精作用: biology/senior/BX-2/U2-1.md
       - 选择性必修三:
-        - U1 发酵工程:
-          - U1-1 传统发酵技术的应用: biology/senior/XB-3/U1.md
+        - 第一章 发酵工程:
+          - 1-1 传统发酵技术的应用: biology/senior/XB-3/C1/U1-1.md
+          - 1-2 微生物的培养技术及应用: biology/senior/XB-3/C1/U1-2.md
+          - 1-3 发酵工程及其应用: biology/senior/XB-3/C1/U1-3.md
+        - 第二章 细胞工程:
+          - 2-1 植物细胞工程: biology/senior/XB-3/C2/U2-1.md
+          - 2-2 动物细胞工程: biology/senior/XB-3/C2/U2-2.md
+          - 2-3 胚胎工程: biology/senior/XB-3/C2/U2-3.md
+        - 第三章 基因工程:
+          - 3-1 基因工程: biology/senior/XB-3/C3/U3-1.md
+          - 3-2 蛋白质工程的原理和应用: biology/senior/XB-3/C3/U3-2.md
+        - 第四章 生物技术的安全性与伦理问题:
+          - 4-1 生物技术的安全性与伦理问题: biology/senior/XB-3/C4/U4-1.md
 
 theme:
   name: material
@@ -173,13 +184,13 @@ theme:
 
 plugins:
   - search
-  - git-committers:
-      repository: HowCam/howcam.github.io
-      branch: main
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-      fallback_to_build_date: true
+  # - git-committers:
+  #     repository: HowCam/howcam.github.io
+  #     branch: main
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+  #     fallback_to_build_date: true
 
 markdown_extensions:
   - footnotes # 脚注
