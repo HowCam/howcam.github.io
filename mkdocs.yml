@@ -112,6 +112,19 @@ nav:
             - U4-3 电磁波谱: physics/senior/XB-2/U4-3.md
             - U4-4 无线电波的发射、传播与接收: physics/senior/XB-2/U4-4.md
             - U4-5 无线电波与移动互联网: physics/senior/XB-2/U4-5.md
+        - 选择性必修三:
+          - 第一章 分子动理论:
+            - U1-1 物体是由大量分子组成的: physics/senior/XB-3/U1-1.md
+            - U1-2 实验：用油膜法估测油酸分子的大小: physics/senior/XB-3/U1-2.md
+            - U1-3 分子的热运动: physics/senior/XB-3/U1-3.md
+            - U1-4 分子间的相互作用力: physics/senior/XB-3/U1-4.md
+            - U1-5 分子热运动的统计规律: physics/senior/XB-3/U1-5.md
+          - 第二章 固体、液体和气体:
+            - U2-1 固体和固体材料: physics/senior/XB-3/U2-1.md
+            - U2-2 液体: physics/senior/XB-3/U2-2.md
+            - U2-3 温度和温标: physics/senior/XB-3/U2-3.md
+            - U2-4 实验：探究气体等温变化的规律: physics/senior/XB-3/U2-4.md
+            - U2-5 气体的等容变化和等压变化: physics/senior/XB-3/U2-5.md
   - 生物:
     - 生物部分简介: biology/biology-intro.md
     - 初中部分:
