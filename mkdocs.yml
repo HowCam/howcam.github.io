@@ -71,6 +71,8 @@ nav:
         - 三角恒等变换公式: math/Trigonometric-identities.md
       - 数列:
         - 数列知识集锦: math/Sequence.md
+      - 导数:
+        - 导数知识集锦: math/Derivative.md
   - 历史:
     - 历史部分简介: history/history-intro.md
     - 初中部分:
