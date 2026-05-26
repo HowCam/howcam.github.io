@@ -3,7 +3,7 @@ site_url: https://starship.howcam.top/
 site_author: Starship Dev Team
 edit_uri: edit/main/docs/
 
-repo_url: https://github.com/howcam/howcam.github.io/
+repo_url: https://github.com/HowCam/howcam.github.io/
 repo_name: HowCam/howcam.github.io
 
 copyright: Copyright &copy; 2024-2026 <a href='https://github.com/orgs/Starship-Dev-Team/people'> Starship Dev Team </a>
@@ -90,11 +90,42 @@ nav:
       - 政治必修一: politics/BX-1.md
   - 化学:
     - 化学部分简介: chemistry/chemistry-intro.md
-    - 初中化学笔记: chemistry/notes.md
-    - 分章节讲稿:
-      - 初中化学:
-        - U0 绪言 化学使世界变得更加绚丽多彩: chemistry/BX-1/U0.md
-        - U1 走进化学世界: chemistry/BX-1/U1.md
+    - 初中部分:
+      - 初中化学笔记: chemistry/junior/notes.md
+      - 初中分节:
+        - U0 绪言 化学使世界变得更加绚丽多彩: chemistry/junior/U0.md
+        - U1 走进化学世界: chemistry/junior/U1.md
+    - 高中部分:
+      - 选择性必修三(有机):
+        - 第一章 有机化合物的结构特点与研究方法:
+          - 第一节 有机化合物的结构特点: chemistry/senior/XB-3/C1/U1-1.md
+          - 第二节 研究有机化合物的一般方法: chemistry/senior/XB-3/C1/U1-2.md
+          - 整理与提升: chemistry/senior/XB-3/C1/review.md
+        - 第二章 烃:
+          - 第一节 烷烃: chemistry/senior/XB-3/C2/U2-1.md
+          - 第二节 烯烃 炔烃: chemistry/senior/XB-3/C2/U2-2.md
+          - 第三节 芳香烃: chemistry/senior/XB-3/C2/U2-3.md
+          - 整理与提升: chemistry/senior/XB-3/C2/review.md
+        - 第三章 烃的衍生物:
+          - 第一节 卤代烃: chemistry/senior/XB-3/C3/U3-1.md
+          - 第二节 醇 酚: chemistry/senior/XB-3/C3/U3-2.md
+          - 第三节 醛 酮: chemistry/senior/XB-3/C3/U3-3.md
+          - 第四节 羧酸 羧酸衍生物: chemistry/senior/XB-3/C3/U3-4.md
+          - 第五节 有机合成: chemistry/senior/XB-3/C3/U3-5.md
+          - 整理与提升: chemistry/senior/XB-3/C3/review.md
+        - 第四章 生物大分子:
+          - 第一节 糖类: chemistry/senior/XB-3/C4/U4-1.md
+          - 第二节 蛋白质: chemistry/senior/XB-3/C4/U4-2.md
+          - 第三节 核酸: chemistry/senior/XB-3/C4/U4-3.md
+          - 整理与提升: chemistry/senior/XB-3/C4/review.md
+        - 第五章 合成高分子:
+          - 第一节 合成高分子的基本方法: chemistry/senior/XB-3/C5/U5-1.md
+          - 第二节 高分子材料: chemistry/senior/XB-3/C5/U5-2.md
+          - 整理与提升: chemistry/senior/XB-3/C5/review.md
+        - 实验活动:
+          - 实验活动 1 乙酸乙酯的制备与性质: chemistry/senior/XB-3/exp1.md
+          - 实验活动 2 有机化合物中常见官能团的检验: chemistry/senior/XB-3/exp2.md
+          - 实验活动 3 糖类的性质: chemistry/senior/XB-3/exp3.md
   - 物理:
     - 物理部分简介: physics/physics-intro.md
     - 分章节讲稿:
@@ -200,13 +231,13 @@ theme:
 
 plugins:
   - search
-  - git-committers:
-      repository: HowCam/howcam.github.io
-      branch: main
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: date
-      fallback_to_build_date: true
+  # - git-committers:
+  #     repository: HowCam/howcam.github.io
+  #     branch: main
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+  #     fallback_to_build_date: true
 
 markdown_extensions:
   - footnotes # 脚注
@@ -229,9 +260,12 @@ markdown_extensions:
   
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/js-polyfills@0.1.43/polyfill.min.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/mhchem.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - assets/katex-init.js
       
 extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
   - style/extra.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
