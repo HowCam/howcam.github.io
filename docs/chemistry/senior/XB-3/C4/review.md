@@ -4,7 +4,7 @@
 
 ### 知识框架
 
-```mermaid
+<div class="mermaid">
 graph TB
     A[第四章 生物大分子] --> B[第一节 糖类]
     A --> C[第二节 蛋白质]
@@ -21,7 +21,7 @@ graph TB
     D --> D2[DNA的结构]
     D --> D3[RNA的结构]
     D --> D4[核酸的生物功能]
-```
+</div>
 
 ### 重点知识梳理
 

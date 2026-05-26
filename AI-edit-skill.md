@@ -156,6 +156,56 @@ let b = 2;
 ![描述](url){ width=50% }
 ```
 
+### 3.10 Mermaid 流程图
+
+使用 Mermaid.js 渲染流程图、思维导图等：
+
+**配置**：已在 `mkdocs.yml` 中添加 Mermaid CDN 和初始化脚本。
+
+**使用方法**：使用 HTML 嵌入模式而非代码块模式：
+
+```html
+<div class="mermaid">
+graph TB
+    A[父节点] --> B[子节点1]
+    A --> C[子节点2]
+    B --> B1[孙节点]
+</div>
+```
+
+**常用图表类型**：
+
+```html
+<!-- 流程图：从上到下 -->
+<div class="mermaid">
+graph TB
+    A[开始] --> B[处理]
+    B --> C[结束]
+</div>
+```
+
+```html
+<!-- 流程图：从左到右 -->
+<div class="mermaid">
+graph LR
+    A[输入] --> B[处理] --> C[输出]
+</div>
+```
+
+```html
+<!-- 思维导图样式 -->
+<div class="mermaid">
+graph TB
+    A[中心主题] --> B[分支1]
+    A --> C[分支2]
+    A --> D[分支3]
+    B --> B1[子主题]
+    B --> B2[子主题]
+</div>
+```
+
+**主题颜色**：当前使用 `forest` 主题（绿色系）。
+
 ---
 
 ## 4. 内容模式
